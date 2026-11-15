@@ -72,34 +72,24 @@ vlm_dataset/{youtube_id}.jsonl ──► adverse_events/{youtube_id}.jsonl   (St
 | `video_pipeline/common/gemini.py` | [common/gemini.md](common/gemini.md) | Google GenAI client (analyst stage only) |
 | `main.py` (original project) | [main.md](main.md) | external entry point pinning the old project's config |
 
-## Utility / One-off Tools (`video_pipeline/tools/`)
+## Pipeline & Phase Tools (`01_dataset_curation/tools/`)
 
-Run any tool with `python -m video_pipeline.tools.<name> [options]`.
-All tools accept `--config <path>` (default: bundled config /
-`$VIDEO_PIPELINE_CONFIG`).
+Run any tool with `python -m tools.<name> [options]`.
+All tools accept `--config <path>` (default: bundled `config.yaml` / `$VIDEO_PIPELINE_CONFIG`).
 
 | Tool | Doc | Purpose |
 |------|-----|---------|
-| `apply_mapping_all` | [tools/apply_mapping_all.md](tools/apply_mapping_all.md) | canonicalize step/instrument labels via mapping JSONs |
+| `downsample_videos` | [tools/downsample_videos.md](tools/downsample_videos.md) | re-sample videos to a target FPS (pipeline step 8) |
 | `merge_dataset` | [tools/merge_dataset.md](tools/merge_dataset.md) | distribute clips + SFT/GRPO into `dataset/Train/Validation/Test/` (pipeline step 11) |
 | `move_full_video` | [tools/move_full_video.md](tools/move_full_video.md) | copy `full_video.mp4` into dataset folders (pipeline step 12) |
-| `rename_to_youtubeid` | [tools/rename_to_youtubeid.md](tools/rename_to_youtubeid.md) | rename dataset folders to YouTube IDs + sync verify |
 | `video_level_dataset` | [tools/video_level_dataset.md](tools/video_level_dataset.md) | full-video narration SFT (pipeline step 13) |
-| `generate_report` | [tools/generate_report.md](tools/generate_report.md) | HTML analytics report (Chart.js) |
-| `remove_sound` | [tools/remove_sound.md](tools/remove_sound.md) | strip audio from clip videos |
-| `downsample_videos` | [tools/downsample_videos.md](tools/downsample_videos.md) | re-sample videos to a target FPS (pipeline step 8) |
-| `video_annotation` | [tools/video_annotation.md](tools/video_annotation.md) | burn visual descriptions into step clips (moviepy) |
-| `video_overlay` | [tools/video_overlay.md](tools/video_overlay.md) | burn descriptions as overlay on full videos |
-| `clean_log` | [tools/clean_log.md](tools/clean_log.md) | remove `ERROR_GENERATION` rows from process log |
-| `replace_clip` | [tools/replace_clip.md](tools/replace_clip.md) | resolve `.ref.txt` symlink placeholders |
-| `reporter` | [tools/reporter.md](tools/reporter.md) | console statistics of the VLM dataset |
-| `apitest` | [tools/apitest.md](tools/apitest.md) | Gemini API connectivity test |
-| `migrate_to_ids` | [tools/migrate_to_ids.md](tools/migrate_to_ids.md) | one-time migration: title names → YouTube IDs |
-| `generate_missing_grpo_sft` | [tools/dataset_helpers.md](tools/dataset_helpers.md) | regenerate missing per-clip SFT/GRPO files (pipeline step 15) |
 | `refine_instrument_options` | [tools/dataset_helpers.md](tools/dataset_helpers.md) | LLM judge that fixes too-similar instrument distractors (pipeline step 14) |
+| `generate_missing_grpo_sft` | [tools/dataset_helpers.md](tools/dataset_helpers.md) | regenerate missing per-clip SFT/GRPO files (pipeline step 15) |
 | `phase_sft_dataset` | [tools/phase_sft_dataset.md](tools/phase_sft_dataset.md) | teacher/critic grounded SFT generation from phase-recognition clips |
 | `phase_grpo_dataset` | [tools/phase_grpo_dataset.md](tools/phase_grpo_dataset.md) | deterministic phase-ontology GRPO generation from accepted phase SFT clips |
 | `merge_phase_dataset` | [tools/merge_phase_dataset.md](tools/merge_phase_dataset.md) | add accepted phase SFT/GRPO samples to the final dataset |
+| `generate_report` | [tools/generate_report.md](tools/generate_report.md) | HTML analytics report (Chart.js) |
+| `reporter` | [tools/reporter.md](tools/reporter.md) | console statistics of the VLM dataset |
 
 ## Design Conventions
 
