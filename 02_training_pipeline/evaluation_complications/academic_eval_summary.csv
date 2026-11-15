@@ -1,0 +1,8 @@
+Metric,Overall (N=49),Validation (N=13),Test (N=15),New Candidate Eval (N=21)
+Task 1: Sensitivity (Recall),80.65%,40.00%,100.00%,85.71%
+Task 1: Specificity,94.44%,87.50%,100.00%,N/A (All Adverse)
+Task 1: Precision (PPV),96.15%,66.67%,100.00%,100.00%
+Task 1: Balanced Accuracy,87.54%,63.75%,100.00%,N/A
+Task 1: Macro F1-Score,87.72%,50.00%,100.00%,92.31%
+Task 2: 8-Class Top-1 Accuracy,81.63%,53.85%,100.00%,85.71%
+Task 3: Clinical Reasoning Accuracy,100.00%,100.00%,100.00%,100.00%

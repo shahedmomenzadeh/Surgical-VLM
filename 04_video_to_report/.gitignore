@@ -1,0 +1,57 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Project data (do NOT push: large + private)
+videos/
+yolo-model/
+output-segmented/
+output-instruments/
+output-teacher/
+output-teacher-backup-v1/
+output-candidates/
+runs/
+*.pt
+*.mp4
+*.avi
+
+# HF dataset staging (large, uploaded to Hub)
+hf_dataset/
+
+# Part III judge outputs (regenerable, large)
+output-judge/
+# Local HF cache (model weights, regenerable)
+hf_home/
+# Local GPU inference venv
+.venv-vlm/
+# Kaggle/local model downloads (regenerable)
+models/
+# Eval archives (regenerable bundles)
+archives/
+# Local scripts & sweeps
+run_cycle.sh
+kaggle_run/
+
+# New post-hoc evaluation outputs (keep large jsonl and older runs ignored)
+output-evaluation/*
+!output-evaluation/v21full/
+output-evaluation/v21full/judgments/
+output-evaluation/v21full/judgments-blind-visual1/
+output-evaluation/v21full/*.jsonl
+
+# Compiled readable reports (presentation only, regenerable)
+output-readable/

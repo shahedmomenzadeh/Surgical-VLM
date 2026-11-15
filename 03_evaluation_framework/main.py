@@ -1,0 +1,345 @@
+# main.py
+# Command-line entry point to orchestrate VLM model family evaluations
+
+import os
+import sys
+import argparse
+import logging
+from datetime import datetime
+
+# Configure base logging before importing other modules
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s  %(levelname)-8s  %(message)s",
+    datefmt="%H:%M:%S",
+    handlers=[
+        logging.StreamHandler(sys.stdout)
+    ]
+)
+log = logging.getLogger("main_orchestrator")
+
+import dataset_loader
+from llm_judge import LLMJudge
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Benchmarking Cataract Surgery VLMs (HuluMed and Qwen3-VL)")
+    
+    # Execution mode
+    parser.add_argument("--mode", type=str, default="all", choices=["all", "inference", "judge"],
+                        help="Execution mode: 'inference' (only generate responses), 'judge' (only grade pre-generated responses offline), or 'all' (both sequentially).")
+    
+    # Model parameters
+    parser.add_argument("--model-family", type=str, required=False, choices=["hulumed", "qwen3vl", "lingshu", "qwen2_5_vl", "mage_vl"],
+                        help="Model family architecture type.")
+    parser.add_argument("--model-id", type=str, required=False,
+                        help="Hugging Face model identifier or path.")
+    
+    # Dataset configuration
+    parser.add_argument("--dataset-root", type=str, default=None,
+                        help="Absolute path to the flat evaluation dataset folder (evaluation_dataset/) or local HF dataset folder.")
+    parser.add_argument("--hf-dataset", "--hf-repo", dest="hf_dataset", type=str, default=None,
+                        help="Hugging Face dataset repository ID (e.g., 'username/cataract_surgery_vlm_eval') to download and flatten automatically.")
+    parser.add_argument("--flatten-dir", type=str, default=None,
+                        help="Target directory to store the flattened evaluation dataset (default: ./evaluation_dataset or <dataset-root>_flattened).")
+    parser.add_argument("--copy-videos", action="store_true", default=False,
+                        help="Copy video files instead of creating symlinks/hardlinks during flattening.")
+    parser.add_argument("--hf-token", type=str, default=None,
+                        help="Hugging Face authentication token for gated/private models or datasets.")
+    parser.add_argument("--splits", type=str, nargs="+", default=["Test"], choices=["Train", "Validation", "Test"],
+                        help="Split name or names to evaluate (record-level 'split' field).")
+    parser.add_argument("--data-level", type=str, default="clip", choices=["clip", "full", "both"],
+                        help="Data resolution level: clip (visual_description/mcq/phase, 989 records), full (narration, 15 records), or both.")
+    
+    # Inference parameters
+    parser.add_argument("--output-dir", type=str, default="./results",
+                        help="Directory to write results JSONL files and summary reports.")
+    parser.add_argument("--tag", type=str, default=None,
+                        help="Tag identifier for output filenames. If not set, generated automatically.")
+    
+    parser.add_argument("--max-frames", type=int, default=8,
+                        help="Maximum frames to sample from each video.")
+    parser.add_argument("--frame-size", type=str, default="480,640",
+                        help="HuluMed video frame resizing parameter. Can be a single int or 'height,width'.")
+    parser.add_argument("--fps", type=float, default=1.0,
+                        help="HuluMed video sampling frame rate.")
+    
+    parser.add_argument("--max-pixels", type=int, default=307200,
+                        help="Qwen3-VL max pixels parameter (default: 640*480).")
+    parser.add_argument("--min-pixels", type=int, default=100352,
+                        help="Qwen3-VL min pixels parameter (default: 128*28*28).")
+    
+    parser.add_argument("--mage-video-backend", type=str, default="frames", choices=["frames", "codec"],
+                        help="Mage-VL video input path: 'frames' (uniform sampling, default) or 'codec'.")
+    parser.add_argument("--mage-codec-engine", type=str, default="traditional", choices=["traditional", "neural"],
+                        help="Mage-VL codec engine when --mage-video-backend=codec: 'traditional' or 'neural'.")
+    
+    parser.add_argument("--max-new-tokens", type=int, default=4096,
+                        help="Maximum new tokens to generate.")
+    parser.add_argument("--temperature", type=float, default=0.1,
+                        help="Model sampling temperature. Use 0.0 for greedy decoding.")
+    
+    # Attention implementation
+    parser.add_argument("--use-flash-attn", action="store_true", default=False,
+                        help="Use FlashAttention-2 (flash_attention_2) instead of SDPA (sdpa).")
+    parser.add_argument("--attn-implementation", type=str, default=None, choices=["sdpa", "flash_attention_2", "eager"],
+                        help="Explicit attention implementation. Defaults to 'flash_attention_2' if --use-flash-attn, else 'sdpa'.")
+
+    # Quantization and Memory parameters
+    parser.add_argument("--load-in-4bit", action="store_true", default=True,
+                        help="Load model in 4-bit NF4 format using bitsandbytes (default: True).")
+    parser.add_argument("--no-4bit", dest="load_in_4bit", action="store_false",
+                        help="Disable 4-bit quantization loading.")
+    parser.add_argument("--load-in-8bit", action="store_true", default=False,
+                        help="Load model in 8-bit format using bitsandbytes.")
+    parser.add_argument("--gpu-memory-budget", type=str, default=None,
+                        help="Per-GPU memory budget constraint (e.g., '12GiB') to balance load.")
+    
+    # Judge API settings
+    parser.add_argument("--judge-base-url", type=str, default="https://opencode.ai/zen/go/v1/responses",
+                        help="Judge API base URL — supports chat completions (https://.../v1 or .../v1/chat/completions) and Responses API (https://.../v1/responses).")
+    parser.add_argument("--judge-model", type=str, default="muse-spark-1.3-contributor",
+                        help="LLM judge model identifier.")
+    parser.add_argument("--judge-api-key-env", type=str, default="PROVIDER_API_KEY",
+                        help="Environment variable name that holds LLM judge API key.")
+    parser.add_argument("--judge-retries", type=int, default=3,
+                        help="Number of times to retry judge API calls on failure.")
+    
+    # Operational parameters
+    parser.add_argument("--num-workers", type=int, default=3,
+                        help="Number of concurrent workers for judge evaluation (default: 3).")
+    parser.add_argument("--dry-run", action="store_true",
+                        help="Only load the dataset records and print samples. Does not instantiate models.")
+                        
+    args = parser.parse_args()
+    
+    # Resolve attention implementation
+    if args.attn_implementation is None:
+        args.attn_implementation = "flash_attention_2" if args.use_flash_attn else "sdpa"
+    
+    # Parse frame-size if provided
+    if args.frame_size:
+        size_str = args.frame_size.strip()
+        if "," in size_str:
+            try:
+                args.frame_size = [int(x.strip()) for x in size_str.split(",")]
+            except ValueError:
+                parser.error(f"Invalid format for --frame-size: {args.frame_size}. Must be integer or 'height,width'.")
+        elif "x" in size_str:
+            try:
+                args.frame_size = [int(x.strip()) for x in size_str.split("x")]
+            except ValueError:
+                parser.error(f"Invalid format for --frame-size: {args.frame_size}. Must be integer or 'height,width'.")
+        else:
+            try:
+                args.frame_size = int(size_str)
+            except ValueError:
+                parser.error(f"Invalid format for --frame-size: {args.frame_size}. Must be integer or 'height,width'.")
+                
+    if not args.dry_run:
+        if not args.model_family:
+            parser.error("the following arguments are required: --model-family")
+        if not args.model_id:
+            parser.error("the following arguments are required: --model-id")
+    return args
+
+
+def print_summary_comparison(model_family: str, summaries: dict):
+    """Formats and prints final summary tables based on evaluation run."""
+    print("\n" + "=" * 60)
+    print(f"  {model_family.upper()} EVALUATION SUMMARY")
+    print("=" * 60)
+    
+    if "clip" in summaries and summaries["clip"]:
+        clip_sum = summaries["clip"]
+        print("\n  CLIP-LEVEL EVALUATION SUMMARY:")
+        print(f"    Overall Normalised Accuracy : {clip_sum.get('overall_normalised_accuracy', 0.0):.4f}")
+        if "run_stats" in clip_sum:
+            stats = clip_sum["run_stats"]
+            print(f"    Total Processed Tasks       : {stats.get('ok', 0)}")
+            print(f"    Total Skipped               : {stats.get('skip', 0)}")
+            print(f"    Errors                      : {stats.get('error', 0)}")
+        print("    Per Task Breakdown:")
+        for qtype, metrics in sorted(clip_sum.get("per_type", {}).items()):
+            print(f"      - {qtype:<35}: {metrics.get('avg_normalised_score'):.4f} (n={metrics.get('n_samples')})")
+            
+    if "full" in summaries and summaries["full"]:
+        full_sum = summaries["full"]
+        print("\n  FULL-VIDEO LEVEL EVALUATION SUMMARY:")
+        if "run_stats" in full_sum:
+            stats = full_sum["run_stats"]
+            print(f"    Videos Processed            : {stats.get('ok', 0)}")
+            print(f"    Videos Skipped              : {stats.get('skip', 0)}")
+            print(f"    Errors                      : {stats.get('error', 0)}")
+        
+        narration = full_sum.get("narration", {})
+        print("\n    NARRATION METRICS:")
+        print(f"      - Overall Narration Score : {narration.get('avg_overall_score')}/5")
+        print(f"      - Step Coverage           : {narration.get('avg_step_coverage')}/5")
+        print(f"      - Chronological Accuracy  : {narration.get('avg_chronological_accuracy')}/5")
+        print(f"      - Visual/Tech Accuracy    : {narration.get('avg_visual_technical_accuracy')}/5")
+        print(f"      - Narrative Flow          : {narration.get('avg_narrative_flow')}/5")
+        
+    print("=" * 60)
+
+
+def main():
+    args = parse_args()
+    
+    # Fall back to --hf-dataset if provided
+    if args.hf_dataset and not args.dataset_root:
+        args.dataset_root = args.hf_dataset
+
+    # Validate arguments for root dataset directory
+    if args.mode != "judge" and not args.dry_run and not args.dataset_root:
+        log.error("Error: --dataset-root or --hf-dataset is required in 'inference' or 'all' modes.")
+        sys.exit(1)
+
+    # Resolve / flatten dataset if necessary
+    if args.dataset_root:
+        args.dataset_root = dataset_loader.ensure_flat_dataset(
+            dataset_root_or_repo=args.dataset_root,
+            flatten_dir=args.flatten_dir,
+            copy_videos=args.copy_videos,
+            token=args.hf_token or os.environ.get("HF_TOKEN")
+        )
+    
+    # 1. Determine tag
+    if args.tag is None and args.model_id is not None:
+        model_name_clean = args.model_id.split("/")[-1].replace("-", "_").lower()
+        args.tag = f"{args.model_family}_{model_name_clean}"
+    elif args.tag is None:
+        args.tag = "dry_run"
+        
+    log.info(f"Model ID: {args.model_id}")
+    log.info(f"Tag Label: {args.tag}")
+    log.info(f"Execution Mode: {args.mode}")
+    
+    # 2. Retrieve Judge API Key
+    judge_api_key = os.environ.get(args.judge_api_key_env, "")
+    if not judge_api_key and args.mode != "inference":
+        log.warning(f"Judge API key env var '{args.judge_api_key_env}' is not set. API judge calls will fail or fall back.")
+        
+    # 3. Handle Offline Judge-Only Mode
+    if args.mode == "judge":
+        log.info("Mode 'judge' is active. Starting offline responses evaluation...")
+        judge = LLMJudge(
+            base_url=args.judge_base_url,
+            api_key=judge_api_key,
+            model=args.judge_model,
+            retries=args.judge_retries,
+            num_workers=args.num_workers
+        )
+        summaries = {}
+        
+        # Clip Evaluation
+        if args.data_level in ("clip", "both"):
+            suffix = "_clip"
+            resp_path = os.path.join(args.output_dir, f"{args.tag}{suffix}_responses.jsonl")
+            score_path = os.path.join(args.output_dir, f"{args.tag}{suffix}_scores.jsonl")
+            sum_path = os.path.join(args.output_dir, f"{args.tag}{suffix}_summary.json")
+            
+            if os.path.exists(resp_path):
+                log.info(f"Grading clip responses from {resp_path}...")
+                summaries["clip"] = judge.grade_responses_file(
+                    responses_path=resp_path,
+                    scores_path=score_path,
+                    summary_path=sum_path,
+                    level="clip",
+                    model_id=args.model_id,
+                    tag=args.tag
+                )
+            else:
+                log.error(f"Responses file not found: {resp_path}. Cannot perform offline clip grading.")
+                
+        # Full Video Evaluation
+        if args.data_level in ("full", "both"):
+            suffix = "_full"
+            resp_path = os.path.join(args.output_dir, f"{args.tag}{suffix}_responses.jsonl")
+            score_path = os.path.join(args.output_dir, f"{args.tag}{suffix}_scores.jsonl")
+            sum_path = os.path.join(args.output_dir, f"{args.tag}{suffix}_summary.json")
+            
+            if os.path.exists(resp_path):
+                log.info(f"Grading full video responses from {resp_path}...")
+                summaries["full"] = judge.grade_responses_file(
+                    responses_path=resp_path,
+                    scores_path=score_path,
+                    summary_path=sum_path,
+                    level="full",
+                    model_id=args.model_id,
+                    tag=args.tag
+                )
+            else:
+                log.error(f"Responses file not found: {resp_path}. Cannot perform offline full video grading.")
+                
+        print_summary_comparison(args.model_family, summaries)
+        sys.exit(0)
+        
+    # 4. Load Dataset (only for 'all' and 'inference' modes)
+    records = {}
+    if args.data_level in ("clip", "both"):
+        log.info(f"Loading clip-level dataset from {args.dataset_root}...")
+        records["clip"] = dataset_loader.load_clip_records(
+            dataset_root=args.dataset_root,
+            splits=args.splits,
+            validate_videos=True,
+            flatten_dir=args.flatten_dir,
+            hf_token=args.hf_token or os.environ.get("HF_TOKEN")
+        )
+        
+    if args.data_level in ("full", "both"):
+        log.info(f"Loading full-video level dataset from {args.dataset_root}...")
+        records["full"] = dataset_loader.load_full_video_records(
+            dataset_root=args.dataset_root,
+            splits=args.splits,
+            validate_videos=True,
+            flatten_dir=args.flatten_dir,
+            hf_token=args.hf_token or os.environ.get("HF_TOKEN")
+        )
+        
+    # Handle dry-run mode
+    if args.dry_run:
+        log.info("Dry-run mode activated. Printing sample records and exiting.")
+        if "clip" in records and records["clip"]:
+            log.info(f"Clip sample count: {len(records['clip'])} (expected 989: 293 visual_description + 486 mcq + 210 phase)")
+            log.info(f"Clip record sample: {records['clip'][0]}")
+        if "full" in records and records["full"]:
+            log.info(f"Full-video sample count: {len(records['full'])} (expected 15 narration)")
+            log.info(f"Full-video record sample: {records['full'][0]}")
+        sys.exit(0)
+        
+    # 5. Instantiate LLM Judge
+    judge = LLMJudge(
+        base_url=args.judge_base_url,
+        api_key=judge_api_key,
+        model=args.judge_model,
+        retries=args.judge_retries,
+        num_workers=args.num_workers
+    )
+    
+    # 6. Dispatch model VLM inference runner
+    summaries = {}
+    if args.model_family == "hulumed":
+        # Import dynamically inside venv to avoid Qwen dependency errors
+        import hulumed_inference
+        summaries = hulumed_inference.run(args, records, judge)
+    elif args.model_family == "qwen3vl":
+        import qwen3VL_inference
+        summaries = qwen3VL_inference.run(args, records, judge)
+    elif args.model_family in ("lingshu", "qwen2_5_vl"):
+        import lingshu_inference
+        summaries = lingshu_inference.run(args, records, judge)
+    elif args.model_family == "mage_vl":
+        import mage_vl_inference
+        summaries = mage_vl_inference.run(args, records, judge)
+        
+    # 7. Print summary metrics (only in 'all' mode where judging was executed immediately)
+    if args.mode == "all":
+        print_summary_comparison(args.model_family, summaries)
+    else:
+        log.info(f"VLM inference run completed successfully. Raw output saved in: {args.output_dir}")
+        log.info("To score the outputs, copy response files and run: python main.py --mode judge [args]")
+
+
+if __name__ == "__main__":
+    main()

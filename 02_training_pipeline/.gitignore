@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+
+# Virtual environment
+.venv/
+venv/
+
+# HuggingFace model cache
+hf_cache/
+
+# Training outputs
+output/
+
+# Generated data files (regenerate with prepare_sft.py / prepare_grpo.py)
+data/*.json
+data/tiny_test/
+
+# Dataset: exclude media & raw annotations (distributed separately via HF Hub).
+# Helper scripts + small metadata stay tracked so a fresh clone can bootstrap.
+dataset_sft/*
+!dataset_sft/*.py
+!dataset_sft/*.sh
+!dataset_sft/*.json
+!dataset_sft/*.md
+dataset_sft/dataset_zips/
+dataset_grpo/*
+!dataset_grpo/*.py
+!dataset_grpo/*.sh
+!dataset_grpo/*.json
+!dataset_grpo/*.md
+dataset_grpo/dataset_zips/
+
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

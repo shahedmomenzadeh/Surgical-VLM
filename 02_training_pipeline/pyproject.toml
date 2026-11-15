@@ -1,0 +1,56 @@
+[project]
+name = "qwen3vl-finetune"
+version = "0.1.0"
+description = "Qwen3-VL-2B-Instruct SFT + GRPO finetuning for cataract surgery video understanding"
+requires-python = ">=3.10"
+
+dependencies = [
+    "torch>=2.4.0",
+    "torchvision",
+    "torchaudio",
+    "transformers>=4.45.0",
+    "accelerate>=0.34.0",
+    "peft>=0.13.0",
+    "trl>=1.8.0",
+    "deepspeed>=0.15.0",
+    "bitsandbytes>=0.44.0",
+    "qwen-vl-utils[decord]",
+    "liger-kernel>=0.8.0",
+    "ujson",
+    "tensorboard",
+    "wandb",
+    "einops",
+    "sentencepiece",
+    "protobuf",
+    "math-verify",
+    "latex2sympy2-extended",
+    "gradio",
+    "pillow",
+    "datasets",
+    "tqdm",
+    "imageio",
+    "gdown",
+]
+
+[project.optional-dependencies]
+flash-attn = ["flash-attn>=2.6.0"]
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true  # only used for torch* via [tool.uv.sources]; PyPI serves everything else
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu130" }
+torchvision = { index = "pytorch-cu130" }
+torchaudio = { index = "pytorch-cu130" }
+# Qwen3-VL support requires transformers newer than PyPI releases: track git main
+# (uv.lock pins the exact commit at lock time for reproducibility).
+transformers = { git = "https://github.com/huggingface/transformers.git" }
+
+[tool.uv]
+package = false
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

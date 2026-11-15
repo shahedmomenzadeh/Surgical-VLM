@@ -1,0 +1,84 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+# ============================================================
+# Virtual environments
+# ============================================================
+.venv/
+venv/
+env/
+ENV/
+
+# ============================================================
+# Secrets and environment files (keep the example templates)
+# ============================================================
+.env
+.env.*
+!.env.example
+cookie.txt
+cookies.txt
+
+# ============================================================
+# IDE / OS artifacts
+# ============================================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Testing / tooling caches
+# ============================================================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ============================================================
+# Backup / patch leftovers
+# ============================================================
+*.orig
+*.bak
+*.rej
+
+# ============================================================
+# Pipeline data outputs (large generated media and datasets)
+# These are pipeline artifacts, not source code. Rebuild them
+# by running the pipeline; never commit them.
+# ============================================================
+videos/
+videos_down/
+audio/
+transcripts/
+refined_transcripts/
+vlm_dataset/
+adverse_events/
+clip_dataset/
+dataset/
+training_datasets/
+phase_dataset/
+phase_vlm_dataset/
+hf_zips/
+phase_stats/
+
+# ============================================================
+# Local logs and scratch files
+# ============================================================
+*.log
+*.tmp

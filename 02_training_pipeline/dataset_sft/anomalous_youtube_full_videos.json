@@ -1,0 +1,2128 @@
+[
+  {
+    "youtube_video_id": "0xUbMicNy-w",
+    "split": "Test",
+    "title": "CataractCoach™ 2657: CataractQuiz™: Why did this happen? Help with this mystery case!",
+    "url": "https://www.youtube.com/watch?v=0xUbMicNy-w",
+    "anomalous_clips_count": 2,
+    "anomaly_categories": [
+      "Corneal Edema / Descemet Detachment / Wound Burn"
+    ],
+    "clips": [
+      {
+        "clip_id": "0xUbMicNy-w_clip_03",
+        "video_file": "clip_03.mp4",
+        "anomalies": [
+          "Corneal Edema / Descemet Detachment / Wound Burn"
+        ],
+        "description": "A cohesive viscoelastic is injected to deepen the very shallow anterior chamber and create space. Following this, a clear corneal main incision is created with a keratome.",
+        "transcript": "And this is obviously a very tough case to do in this eye with the AC so shallow, corneal edema there."
+      },
+      {
+        "clip_id": "0xUbMicNy-w_clip_08",
+        "video_file": "clip_08.mp4",
+        "anomalies": [
+          "Corneal Edema / Descemet Detachment / Wound Burn"
+        ],
+        "description": "The video switches to the left eye. Trypan blue dye is injected, followed by viscoelastic to deepen the chamber. A cystotome punctures the intumescent lens capsule, resulting in a gush of milky white liquefied cortex, which is aspirated.",
+        "transcript": "It's like that phenomenon because it's bilateral, synchronous, rapid course, fibrin, corneal edema, hypotony, pain."
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "2PnbLBFKiyQ",
+    "split": "Test",
+    "title": "Argentinian Flag sign 6-19-2016.  Surgery and Narration by Shannon Wong, MD",
+    "url": "https://www.youtube.com/watch?v=2PnbLBFKiyQ",
+    "anomalous_clips_count": 4,
+    "anomaly_categories": [
+      "Intraocular Bleeding / Hyphema / Iris Bleeding",
+      "Radial / Anterior Capsular Tear / Argentinian Flag Sign"
+    ],
+    "clips": [
+      {
+        "clip_id": "2PnbLBFKiyQ_clip_05",
+        "video_file": "clip_05.mp4",
+        "anomalies": [
+          "Intraocular Bleeding / Hyphema / Iris Bleeding"
+        ],
+        "description": "A bent-needle cystotome is used to puncture the center of the stained anterior capsule. Immediately upon puncture, a large plume of white, milky liquefied cortical material flows out from the capsular bag into the anterior chamber.",
+        "transcript": "We used a bent needle cystotome attached to Healon and once we opened the capsule we saw a plume of cortical material filling the anterior chamber."
+      },
+      {
+        "clip_id": "2PnbLBFKiyQ_clip_07",
+        "video_file": "clip_07.mp4",
+        "anomalies": [
+          "Radial / Anterior Capsular Tear / Argentinian Flag Sign"
+        ],
+        "description": "A viscoelastic cannula is used to re-inflate the anterior chamber. As the cannula moves, it reveals two large, radial, linear tears extending from the central puncture to the periphery of the anterior capsule. This creates a pattern resembling the Argentinian flag, with two blue-stained capsule flaps separated by the white cataract.",
+        "transcript": "And then once we go back in with Healon GV we find the Argentinian flag sign."
+      },
+      {
+        "clip_id": "2PnbLBFKiyQ_clip_08",
+        "video_file": "clip_08.mp4",
+        "anomalies": [
+          "Radial / Anterior Capsular Tear / Argentinian Flag Sign"
+        ],
+        "description": "Micro-scissors are introduced into the anterior chamber. The surgeon carefully cuts the edges of the torn anterior capsule flaps, connecting the radial tears to create a continuous, albeit irregular, capsular opening, converting the complication into a functional can-opener capsulotomy.",
+        "transcript": "So we converted to a beer can capsulotomy"
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Radial / Anterior Capsular Tear / Argentinian Flag Sign"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "9E_jRdOnuqw",
+    "split": "Test",
+    "title": "Crazy Dislocated Traumatic Cataract with Sutured Capsular Tension Segments",
+    "url": "https://www.youtube.com/watch?v=9E_jRdOnuqw",
+    "anomalous_clips_count": 7,
+    "anomaly_categories": [
+      "Vitreous Prolapse / Anterior Vitrectomy",
+      "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+    ],
+    "clips": [
+      {
+        "clip_id": "9E_jRdOnuqw_clip_01",
+        "video_file": "clip_01.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy"
+        ],
+        "description": "A side-port incision is made and a viscoelastic cannula is introduced to inject dispersive, and then cohesive, viscoelastic into the anterior chamber. A second instrument is used to gently manipulate and recenter the severely dislocated and mobile crystalline lens within the pupillary space.",
+        "transcript": "And our goal is to try to preserve that capsule or bag here, first injecting a dispersive viscoelastic here to prevent vitreous prolapse. We will then inject some cohesive viscoelastic as well to keep the chamber. And just gently now, we can nudge the lens back into the central pupillary space, actually so we can visualize things."
+      },
+      {
+        "clip_id": "9E_jRdOnuqw_clip_05",
+        "video_file": "clip_05.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "Viscoelastic is injected to perform viscodissection. Two PMMA capsular tension segments (CTS) are inserted into the capsular fornix, one inferiorly and one superiorly, to support the equator of the bag. The eyelets of the CTSs are positioned centrally for later fixation.",
+        "transcript": "We now have a continuous rhexis present here reasonably centered, and we'll do some visco dissection because now we are planning on placing two PMA capsule retention segments... going into the capsule into the fornix"
+      },
+      {
+        "clip_id": "9E_jRdOnuqw_clip_07",
+        "video_file": "clip_07.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy"
+        ],
+        "description": "Following injection of viscoelastic, bimanual irrigation and aspiration cannulas are used to remove the remaining lens cortex from the equatorial fornix of the capsular bag. The capsular tension segments are clearly visible supporting the bag.",
+        "transcript": "Before pulling out, we inject viscoelastic to prevent chamber shallowing and vitreous prolapse, and then the cortex is removed reasonably well using a bimanual technique as well."
+      },
+      {
+        "clip_id": "9E_jRdOnuqw_clip_09",
+        "video_file": "clip_09.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "The surgeon creates scleral grooves superiorly and inferiorly. A double-armed 7-0 Gore-Tex suture is passed through the eyelet of each CTS. A 25-gauge needle is then passed through the scleral wall from the outside (ab externo), docking the suture needles and externalizing them. This process is repeated for both CTSs, creating suture loops for scleral fixation.",
+        "transcript": "Here, a 25-gauge hypodermic is being placed through the scleral groove to dock one arm of a double-armed 7-0 Gore-Tex suture that has been placed through the islet. This is one pass; a second pass is made."
+      },
+      {
+        "clip_id": "9E_jRdOnuqw_clip_11",
+        "video_file": "clip_11.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A capsular tension ring (CTR) is injected into the capsular bag. A Sinskey hook is used to guide the trailing end of the CTR fully into the capsular fornix, providing 360-degree support.",
+        "transcript": "we will now then place a capsular tension ring, which is nice because it provides broad circumferential support in addition to the two localized areas of support by these localized capsular tension segments."
+      },
+      {
+        "clip_id": "9E_jRdOnuqw_clip_14",
+        "video_file": "clip_14.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy",
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A final view of the eye shows the IOL perfectly centered within the pupil. Viscoelastic is irrigated from the surface, and the instruments are withdrawn. The procedure is complete.",
+        "transcript": "This is a severely dislocated, somewhat dense crystalline lens, using an in-the-bag phaco technique with two segments and a CTR. The segments are sutured to the sclera using GORE-TEX suture, all done through small incisions without the need to do a vitrectomy."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "IFNTpWIMgsQ",
+    "split": "Test",
+    "title": "Ahmed Segment | Capsular Tension Segment | Features & Procedure | FCI Cataract",
+    "url": "https://www.youtube.com/watch?v=IFNTpWIMgsQ",
+    "anomalous_clips_count": 16,
+    "anomaly_categories": [
+      "Lens Subluxation / Dislocation / Dropped Nucleus",
+      "Radial / Anterior Capsular Tear / Argentinian Flag Sign",
+      "Vitreous Prolapse / Anterior Vitrectomy",
+      "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+    ],
+    "clips": [
+      {
+        "clip_id": "IFNTpWIMgsQ_clip_01",
+        "video_file": "clip_01.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy"
+        ],
+        "description": "A vitrectomy probe is inserted into the anterior chamber to remove prolapsed vitreous. The probe aspirates and cuts the vitreous strands, clearing the view and stabilizing the anterior segment.",
+        "transcript": "minimizing the need for vitrectomy and placement of an in-the-bag PCIOL."
+      },
+      {
+        "clip_id": "IFNTpWIMgsQ_clip_02",
+        "video_file": "clip_02.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A Cionni modified capsular tension ring (CTR) is shown being inserted into the capsular bag. Microforceps and a Sinskey hook are used to guide the ring and secure its fixation eyelet by passing a suture through it and out through the sclera.",
+        "transcript": "The Cionni modified capsular tension ring has provided a major advance in the development and management of severe zonular dialysis."
+      },
+      {
+        "clip_id": "IFNTpWIMgsQ_clip_03",
+        "video_file": "clip_03.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A posterior (Miyake-Apple) view of a cadaver eye shows a Cionni CTR being inserted and dialed into the capsular bag with the crystalline lens still in place. The view demonstrates significant torque and stress on the capsular bag and zonules during this maneuver.",
+        "transcript": "Miyake-Apple video analysis of insertion prior to phacoemulsification shows significant capsular bag torque and zonular stress as the tension ring is dialed into position."
+      },
+      {
+        "clip_id": "IFNTpWIMgsQ_clip_04",
+        "video_file": "clip_04.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "During phacoemulsification, multiple iris retractors are hooked onto the edge of the capsulorhexis to act as synthetic zonules, stabilizing the capsular bag. The phaco probe emulsifies the nucleus.",
+        "transcript": "An alternative to early placement of the capsular tension ring is the insertion of multiple iris or capsular retractors at the capsulorhexis edge to act as synthetic zonules providing lens stability."
+      },
+      {
+        "clip_id": "IFNTpWIMgsQ_clip_05",
+        "video_file": "clip_05.mp4",
+        "anomalies": [
+          "Lens Subluxation / Dislocation / Dropped Nucleus"
+        ],
+        "description": "During phacoemulsification, the iris retractor at the 6:30 position slips off the capsulorhexis margin. This loss of support results in posterior subluxation of the lens-capsular bag complex.",
+        "transcript": "Note the position of the iris retractor at the 6:30 position in this case. During phacoemulsification, it slips off resulting in lens subluxation posteriorly."
+      },
+      {
+        "clip_id": "IFNTpWIMgsQ_clip_06",
+        "video_file": "clip_06.mp4",
+        "anomalies": [
+          "Radial / Anterior Capsular Tear / Argentinian Flag Sign"
+        ],
+        "description": "In a different case, during phacoemulsification with iris retractor support, excessive tension from the retractor at the 8 o'clock position causes a radial tear in the anterior capsule, starting from the capsulorhexis edge.",
+        "transcript": "In this next case, observe the retractor at the 8 o'clock position. As the case proceeds, tension on the iris retractor creates an anterior capsular tear."
+      },
+      {
+        "clip_id": "IFNTpWIMgsQ_clip_07",
+        "video_file": "clip_07.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A Capsular Tension Segment (CTS) is inserted into the capsular bag using forceps. An iris retractor is then passed through the central fixation eyelet of the CTS and secured externally, providing stable intraoperative support to the area of zonular weakness.",
+        "transcript": "The capsular tension segment can be inserted after anterior capsulotomy and before phacoemulsification. Its design affords an extremely atraumatic insertion... An iris retractor can be placed through the fixation eyelet for intraoperative fixation and stability with virtually no risk of dislodgement."
+      },
+      {
+        "clip_id": "IFNTpWIMgsQ_clip_08",
+        "video_file": "clip_08.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A posterior (Miyake-Apple) view demonstrates the atraumatic insertion of a CTS into the capsular bag. It is secured with an iris retractor. The lens is then flipped and emulsified, followed by easy removal of the cortex with an I/A cannula, showing the excellent stability provided by the CTS.",
+        "transcript": "Compared to the previous Miyake-Apple view of the capsular ring insertion, the CTS is easily and atraumatically inserted into position...The segment is secured with an iris retractor providing excellent intraoperative support as the lens is flipped and emulsified. Note how easily cortex is removed with the segment in place by stripping around the device."
+      },
+      {
+        "clip_id": "IFNTpWIMgsQ_clip_09",
+        "video_file": "clip_09.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A double-armed 9-0 prolene suture is passed through the sclera (ab-externo technique). One needle is retrieved from the anterior chamber and passed through the fixation eyelet of the CTS. After the second needle is passed similarly, the external suture is tied, pulling the CTS against the scleral wall to support the capsular bag.",
+        "transcript": "The CTS is designed for scleral suture fixation over an area of zonular weakness. After one end of a double-armed 9-0 prolene suture is placed to approximate the ciliary sulcus, the suture is placed through the segment fixation eyelet."
+      },
+      {
+        "clip_id": "IFNTpWIMgsQ_clip_10",
+        "video_file": "clip_10.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A posterior (Miyake-Apple) view shows a capsular bag with a pre-existing anterior capsular tear (marked by a blue arrow). A CTS is atraumatically inserted and positioned over the tear, providing support without causing the tear to extend. A second segment is then placed opposite the first.",
+        "transcript": "Here, the CTS is safely positioned over an anterior capsular tear providing adjacent capsular support and reducing traction at this site which could extend the tear. A second segment is placed and although infusion is placed in the eye, the tear does not extend."
+      },
+      {
+        "clip_id": "IFNTpWIMgsQ_clip_11",
+        "video_file": "clip_11.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "Following placement of a CTS in a fragile capsular bag, a three-piece IOL is implanted. The haptics are placed in the ciliary sulcus, and the central optic is then gently pushed posteriorly through the capsulorhexis opening to capture it behind the anterior capsule rim, ensuring excellent stability and centration.",
+        "transcript": "a foldable three-piece intraocular lens is placed in the sulcus with optic capture through the capsulorhexis."
+      },
+      {
+        "clip_id": "IFNTpWIMgsQ_clip_12",
+        "video_file": "clip_12.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "In a case of extensive zonular weakness, a Cionni modified capsular tension ring is first inserted into the capsular bag. Subsequently, a capsular tension segment (CTS) is also implanted, demonstrating a combined technique to provide multi-point fixation and comprehensive support to the entire capsular bag.",
+        "transcript": "In cases of larger zonular dialysis and progressive conditions, the Cionni modified ring can be inserted in conjunction with the CTS, thus providing multipoint fixation."
+      },
+      {
+        "clip_id": "IFNTpWIMgsQ_clip_13",
+        "video_file": "clip_13.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "In a complex case with severe zonular weakness, iris retractors are placed on the iris to expand the pupil. A continuous curvilinear capsulorhexis is performed. A CTS is then inserted atraumatically into the capsular bag and secured with an iris retractor hooked through its fixation eyelet for stability.",
+        "transcript": "After iris retractor assisted capsulorhexis, hydrodissection, and viscodissection, the CTS is centered over the largest area of zonular dialysis... An iris retractor secures the segment for intraoperative manipulations without concern of dislodgement."
+      },
+      {
+        "clip_id": "IFNTpWIMgsQ_clip_14",
+        "video_file": "clip_14.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "With the capsular bag stabilized by the CTS and iris retractors, the phaco handpiece is used to emulsify and aspirate the lens nucleus. Following this, an I/A probe is used to strip and aspirate the remaining cortical material from the capsular bag periphery.",
+        "transcript": "Phacoemulsification is performed in a very controlled environment with the CTS in place. Compared to tension rings, cortical removal is easily stripped around the segment."
+      },
+      {
+        "clip_id": "IFNTpWIMgsQ_clip_15",
+        "video_file": "clip_15.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "The first CTS is temporarily removed. Double-armed sutures are passed ab-externo through the sclera. The suture is threaded through the CTS eyelet, and the CTS is re-implanted and secured by tying the suture. Due to extensive zonular weakness, a second CTS is implanted superiorly and also sutured to the sclera to provide 360-degree support.",
+        "transcript": "In preparation for suture passage, the segment is disconnected from the iris retractor and temporarily removed from the eye. An ab-external technique is used to pass 9-0 polypropylene sutures. After passing the suture through the fixation eyelet, the CTS is re-implanted... With severe dialysis also involving the superior zonules, a second segment is implanted and sutured in this area."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Radial / Anterior Capsular Tear / Argentinian Flag Sign",
+          "Vitreous Prolapse / Anterior Vitrectomy",
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion",
+          "Lens Subluxation / Dislocation / Dropped Nucleus"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "QJwvHv9pBxU",
+    "split": "Test",
+    "title": "Complex cataract surgery, iStent, Pupilloplasty.  Shannon Wong. 3-15-15",
+    "url": "https://www.youtube.com/watch?v=QJwvHv9pBxU",
+    "anomalous_clips_count": 5,
+    "anomaly_categories": [
+      "Vitreous Prolapse / Anterior Vitrectomy",
+      "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+    ],
+    "clips": [
+      {
+        "clip_id": "QJwvHv9pBxU_clip_03",
+        "video_file": "clip_03.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "Two McCool capsular retractors are inserted through limbal incisions and hooked onto the edge of the capsulorhexis to stabilize the superior aspect of the capsular bag where zonular dehiscence is most apparent.",
+        "transcript": "And so we placed McCool capsular retractors, part of the IMPEX McCool cataract support system. These are similar to iris retractors except they hold the capsule..."
+      },
+      {
+        "clip_id": "QJwvHv9pBxU_clip_05",
+        "video_file": "clip_05.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "After discovering more extensive zonular loss, two additional McCool capsular retractors are placed inferiorly, providing 360-degree support to the entire capsular bag.",
+        "transcript": "We find there's also loss of zonules that develops from about 2 o'clock to 5:30 on the screenshot so we placed an additional two McCool capsular support system retractors."
+      },
+      {
+        "clip_id": "QJwvHv9pBxU_clip_06",
+        "video_file": "clip_06.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy"
+        ],
+        "description": "After removing the remaining nuclear fragments, a vitrectomy probe is used to perform irrigation, aspiration, and anterior vitrectomy due to vitreous prolapse. The surgeon decides to remove the entire unstable capsular bag complex, rendering the eye aphakic.",
+        "transcript": "We are able to remove all of the cataract and we begin irrigation and aspiration using the vitrectomy because vitreous had presented itself around the equator of the bag."
+      },
+      {
+        "clip_id": "QJwvHv9pBxU_clip_11",
+        "video_file": "clip_11.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy"
+        ],
+        "description": "A vitrectomy probe is used in an I/A (irrigation/aspiration) mode to thoroughly remove the viscoelastic substance from the anterior chamber, from both in front of and behind the ACIOL.",
+        "transcript": "We then remove the viscoelastic that was placed into the eye to complete the operation with our vitrectomy."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy",
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "_QXWa7QaEgk",
+    "split": "Test",
+    "title": "CataractCoach™ 2684: CataractQuiz™: What about all this bleeding with MIGS?",
+    "url": "https://www.youtube.com/watch?v=_QXWa7QaEgk",
+    "anomalous_clips_count": 5,
+    "anomaly_categories": [
+      "Intraocular Bleeding / Hyphema / Iris Bleeding"
+    ],
+    "clips": [
+      {
+        "clip_id": "_QXWa7QaEgk_clip_02",
+        "video_file": "clip_02.mp4",
+        "anomalies": [
+          "Intraocular Bleeding / Hyphema / Iris Bleeding"
+        ],
+        "description": "Immediately following the trabeculotomy, blood refluxes from the Schlemm's canal area and begins to fill the anterior chamber, forming a significant hyphema.",
+        "transcript": "Oh, a little bit of bleeding here."
+      },
+      {
+        "clip_id": "_QXWa7QaEgk_clip_03",
+        "video_file": "clip_03.mp4",
+        "anomalies": [
+          "Intraocular Bleeding / Hyphema / Iris Bleeding"
+        ],
+        "description": "An irrigation cannula is inserted through a paracentesis to infuse balanced salt solution, increasing the intraocular pressure to tamponade the bleeding source in the angle.",
+        "transcript": "You get the pressure up is what I do. Yeah. Get the IOP up in the eye right now."
+      },
+      {
+        "clip_id": "_QXWa7QaEgk_clip_06",
+        "video_file": "clip_06.mp4",
+        "anomalies": [
+          "Intraocular Bleeding / Hyphema / Iris Bleeding"
+        ],
+        "description": "A prolonged and meticulous process of removing the large blood clot is undertaken. Microforceps are used to grasp and pull out large pieces of the clot. An I/A or phaco probe is used bimanually with a manipulator to aspirate smaller fragments and dissect the clot away from the iris and angle structures.",
+        "transcript": "Okay, micro forceps maybe you can grab that clot and yank it out. That can work too."
+      },
+      {
+        "clip_id": "_QXWa7QaEgk_clip_09",
+        "video_file": "clip_09.mp4",
+        "anomalies": [
+          "Intraocular Bleeding / Hyphema / Iris Bleeding"
+        ],
+        "description": "A slit lamp examination on the first day after surgery shows the eye's condition. A small, layered hyphema remains inferiorly, and there is some fibrin on the IOL surface, but the cornea is relatively clear and the anterior chamber is formed.",
+        "transcript": "So here we go, post-op day one. Ah, a little bit of blood still there, a little bit of a uh fibrin in there but the patient will be fine."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Intraocular Bleeding / Hyphema / Iris Bleeding"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "zaL9vzyCJSI",
+    "split": "Test",
+    "title": "Phaco Incision OCT & Live Video Analysis in Cataract Surgery",
+    "url": "https://www.youtube.com/watch?v=zaL9vzyCJSI",
+    "anomalous_clips_count": 2,
+    "anomaly_categories": [
+      "Subconjunctival / Limbal Hemorrhage / Incision Bleed"
+    ],
+    "clips": [
+      {
+        "clip_id": "zaL9vzyCJSI_clip_01",
+        "video_file": "clip_01.mp4",
+        "anomalies": [
+          "Subconjunctival / Limbal Hemorrhage / Incision Bleed"
+        ],
+        "description": "The surgeon stabilizes the globe with a fixation instrument. A keratome is used to create a shallow initial groove at the superotemporal limbus, causing minor bleeding from limbal vessels. The keratome is then re-introduced and advanced through the corneal stroma to create a tunnel. The angle of the blade is adjusted, steepening to penetrate Descemet's membrane and enter the anterior chamber. The full width of the blade enters the AC, and the instrument is then smoothly withdrawn.",
+        "transcript": "a little light groove is made right at that gray line. Now the keratome is positioned appropriately... the blade then changes angle, aiming somewhat towards the corneal apex. And then here at the end, a little more angle change in entering the eye, all the way in, all the way out."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Subconjunctival / Limbal Hemorrhage / Incision Bleed"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "4-fsemZvLts",
+    "split": "Train",
+    "title": "Suture fixation of a Symfony IOL.  When everything goes wrong...How to Recover. 9-23-18",
+    "url": "https://www.youtube.com/watch?v=4-fsemZvLts",
+    "anomalous_clips_count": 5,
+    "anomaly_categories": [
+      "Iris Prolapse / Trauma / Floppy Iris (IFIS)",
+      "Vitreous Prolapse / Anterior Vitrectomy"
+    ],
+    "clips": [
+      {
+        "clip_id": "4-fsemZvLts_clip_01",
+        "video_file": "clip_01.mp4",
+        "anomalies": [
+          "Iris Prolapse / Trauma / Floppy Iris (IFIS)"
+        ],
+        "description": "A hydrodissection cannula is inserted under the anterior capsule, and fluid is injected to separate the lens cortex from the capsule. During the procedure, the pupil begins to constrict, and the iris tissue shows signs of prolapsing through the primary incision.",
+        "transcript": "Here we go. Starting out with a routine case, we're beginning our hydrodissection. And all we notice is the pupil is just a little smaller...but then we get the suggestion that there's going to be a little bit of tendency toward iris prolapse."
+      },
+      {
+        "clip_id": "4-fsemZvLts_clip_07",
+        "video_file": "clip_07.mp4",
+        "anomalies": [
+          "Iris Prolapse / Trauma / Floppy Iris (IFIS)"
+        ],
+        "description": "Due to persistent iris prolapse at the original primary incision, the surgeon closes it with a nylon suture. A new clear corneal incision is then created 90 degrees away to provide a stable entry port for the remainder of the surgery.",
+        "transcript": "We have iris prolapse again...We choose to move 90 degrees away from our initial primary incision that has now been sutured..."
+      },
+      {
+        "clip_id": "4-fsemZvLts_clip_08",
+        "video_file": "clip_08.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy"
+        ],
+        "description": "An anterior vitrectomy cutter is inserted into the eye through the new incision. It cuts and aspirates prolapsed vitreous strands from the anterior chamber and pupillary space. The remaining remnants of the capsular bag are also removed to clear the visual axis completely.",
+        "transcript": "We do an anterior vitrectomy. We essentially take out the capsular bag."
+      },
+      {
+        "clip_id": "4-fsemZvLts_clip_14",
+        "video_file": "clip_14.mp4",
+        "anomalies": [
+          "Iris Prolapse / Trauma / Floppy Iris (IFIS)"
+        ],
+        "description": "A post-operative slit lamp examination of the patient's eye. The view shows a clear cornea, a stable and well-centered diffractive optic IOL (Symfony lens), and a reformed, quiet anterior chamber. The irregular pupil shape from the previous iris trauma is visible.",
+        "transcript": "And then this is the patient's appearance on post-op day number one...a very well centered symphony implant."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy",
+          "Iris Prolapse / Trauma / Floppy Iris (IFIS)"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "4CQg0Bfh-10",
+    "split": "Train",
+    "title": "complete cataract case: chop the nucleus in the bag",
+    "url": "https://www.youtube.com/watch?v=4CQg0Bfh-10",
+    "anomalous_clips_count": 2,
+    "anomaly_categories": [
+      "Intraocular Bleeding / Hyphema / Iris Bleeding"
+    ],
+    "clips": [
+      {
+        "clip_id": "4CQg0Bfh-10_clip_11",
+        "video_file": "clip_11.mp4",
+        "anomalies": [
+          "Intraocular Bleeding / Hyphema / Iris Bleeding"
+        ],
+        "description": "A cannula is used to inject cohesive viscoelastic, inflating the capsular bag and filling the anterior chamber in preparation for IOL implantation.",
+        "transcript": "I find that if we vacuum out this viscoelastic near the angle now, when I re-fill the eye here with the cohesive viscoelastic, it has less of an effect of pushing that earlier viscoelastic into the angle."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Intraocular Bleeding / Hyphema / Iris Bleeding"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "5qRxv5Jphx8",
+    "split": "Train",
+    "title": "Severe traumatic cataract dislocation, atonic pupil and glaucoma",
+    "url": "https://www.youtube.com/watch?v=5qRxv5Jphx8",
+    "anomalous_clips_count": 8,
+    "anomaly_categories": [
+      "Lens Subluxation / Dislocation / Dropped Nucleus",
+      "Vitreous Prolapse / Anterior Vitrectomy",
+      "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+    ],
+    "clips": [
+      {
+        "clip_id": "5qRxv5Jphx8_clip_01",
+        "video_file": "clip_01.mp4",
+        "anomalies": [
+          "Lens Subluxation / Dislocation / Dropped Nucleus"
+        ],
+        "description": "The video opens with a close-up view of an eye with a severely dislocated crystalline lens, which is tilted vertically and partially visible in the anterior chamber. The pupil is widely dilated and fixed. The conjunctiva is hyperemic with prominent blood vessels.",
+        "transcript": "The patient suffers severe blunt trauma with uh very significant crystalline lens dislocation as you can see, barely hanging on with a couple of zonules sitting vertically in the anterior vitreous cavity. Atonic fixed pupil and traumatic glaucoma with a very high pressure of 50 millimeters of mercury."
+      },
+      {
+        "clip_id": "5qRxv5Jphx8_clip_03",
+        "video_file": "clip_03.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy"
+        ],
+        "description": "A cannula is inserted into the anterior chamber to inject triamcinolone, which appears as a white, cloudy substance that stains the prolapsed vitreous. A vitrectomy cutter is then introduced through the pars plana trocar, and an anterior vitrectomy is performed, clearing the white-stained vitreous from the anterior chamber and anterior vitreous cavity.",
+        "transcript": "Some uh triamcinolone will be used here to identify vitreous, some of which is prolapsed in the anterior chamber... Using an anterior infusion and pars plana cutter insertion, we're able to evacuate the anterior segment and the anterior vitreous cavity of vitreous with uh appropriate vitrectomy."
+      },
+      {
+        "clip_id": "5qRxv5Jphx8_clip_06",
+        "video_file": "clip_06.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "Two capsular tension segments (CTS) are inserted into the capsular bag using forceps. A Sinskey hook is used to maneuver each segment into the capsular fornix. The iris hooks are then removed from the rhexis edge and re-inserted through the central eyelet of each CTS to provide stable, externalized support for the capsular bag.",
+        "transcript": "This is the capsular tension segment... We slide this segment into the capsular bag into the capsular fornix with the use of a Sinskey hook... and then using the iris hook... place it through that fixation eyelet."
+      },
+      {
+        "clip_id": "5qRxv5Jphx8_clip_07",
+        "video_file": "clip_07.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A capsular tension ring (CTR) is injected into the capsular bag. The ring expands within the bag, providing circumferential support to the capsular equator and further stabilizing the bag.",
+        "transcript": "A capsular tension ring is also used here, and the benefit of this is to provide circumferential support to really create a nice circumferential support of the capsular bag..."
+      },
+      {
+        "clip_id": "5qRxv5Jphx8_clip_09",
+        "video_file": "clip_09.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "The phaco probe is inserted into the eye. Using a chopping instrument in the other hand, the surgeon engages and cracks the nucleus. The nuclear fragments are then emulsified and aspirated. The capsular bag is held stable by the CTS and CTR throughout the process.",
+        "transcript": "And then using phaco chop techniques, we'll basically create a central crack and then hemi-flip each of the heminuclei."
+      },
+      {
+        "clip_id": "5qRxv5Jphx8_clip_10",
+        "video_file": "clip_10.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy"
+        ],
+        "description": "Using a bimanual setup with separate irrigation and aspiration handpieces (identified as vitrectomy instruments), the surgeon removes the remaining soft lens cortex from the capsular bag, leaving the bag clean.",
+        "transcript": "And now using bimanual IA, actually using the vitrectomy instrumentation to do a bimanual IA is helpful here to remove all that cortex."
+      },
+      {
+        "clip_id": "5qRxv5Jphx8_clip_11",
+        "video_file": "clip_11.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A scleral groove is created. The surgeon passes a 25-gauge needle through the scleral groove, under the iris, and into the anterior chamber. A double-armed 7-0 Gore-Tex suture, previously threaded through a CTS eyelet, is docked into the needle and externalized. The process is repeated for the second arm of the suture and for the second CTS on the opposite side. A slip knot is created externally for later tension adjustment.",
+        "transcript": "This is a scleral groove made tangential to the limbus... 25 gauge hypodermic needle is used in through the scleral groove under the iris above the capsular bag to dock a double armed 7-0 Goretex suture which has been threaded through the eyelet centrally of the segment."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy",
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion",
+          "Lens Subluxation / Dislocation / Dropped Nucleus"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "7Ql8QpIYqds",
+    "split": "Train",
+    "title": "CataractCoach™ 2753: GSL gonio synechio lysis in the clinic & in the OR",
+    "url": "https://youtu.be/7Ql8QpIYqds?si=ma2mcR2ltQL1d8ux",
+    "anomalous_clips_count": 3,
+    "anomaly_categories": [
+      "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+    ],
+    "clips": [
+      {
+        "clip_id": "7Ql8QpIYqds_clip_01",
+        "video_file": "clip_01.mp4",
+        "anomalies": [
+          "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+        ],
+        "description": "At the slit lamp, a 30-gauge needle is carefully inserted through the cornea into the anterior chamber. The tip of the needle is used to engage the peripheral iris and mechanically pull it away from the iridocorneal angle, breaking the peripheral anterior synechiae (PAS). This maneuver is repeated in different areas to open the closed angle.",
+        "transcript": "30 gauge needle, sterile needle at the slit lamp, going inside the eye, decompressing it, but now also GSL, using the needle to grab some iris and pull it out of the angle. Here, look at that, moving it out of the angle. So goniosynechialysis at the slit lamp with a 30 gauge needle..."
+      },
+      {
+        "clip_id": "7Ql8QpIYqds_clip_06",
+        "video_file": "clip_06.mp4",
+        "anomalies": [
+          "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+        ],
+        "description": "Using the I/A tip on low vacuum, the surgeon gently engages the peripheral iris and pulls it centrally, away from the angle. This maneuver, labeled the 'Ayyala Technique', is performed circumferentially to break any remaining peripheral anterior synechiae and open the drainage angle.",
+        "transcript": "GSL WITH IA TIP. AYYALA TECHNIQUE...Using the eye probe to gently grab the iris with the tip and pull it centrally."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "7ooHlIEibjQ",
+    "split": "Train",
+    "title": "Crystalens Z syndrome management 6-1-13",
+    "url": "https://www.youtube.com/watch?v=7ooHlIEibjQ",
+    "anomalous_clips_count": 3,
+    "anomaly_categories": [
+      "Lens Subluxation / Dislocation / Dropped Nucleus",
+      "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+    ],
+    "clips": [
+      {
+        "clip_id": "7ooHlIEibjQ_clip_04",
+        "video_file": "clip_04.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A capsular tension ring (CTR) injector is inserted into the anterior chamber. The CTR is then carefully injected and guided into the capsular bag, where it expands to provide circumferential support to the bag and zonules.",
+        "transcript": "in order to prevent a repeat Z syndrome, we elect to place a capsular tension ring to expand the capsular bag and prevent it from contracting in an abnormal way."
+      },
+      {
+        "clip_id": "7ooHlIEibjQ_clip_06",
+        "video_file": "clip_06.mp4",
+        "anomalies": [
+          "Lens Subluxation / Dislocation / Dropped Nucleus"
+        ],
+        "description": "A Sinskey hook is used to dial and center the new IOL within the capsular bag. It is observed that one of the haptics has subluxated into the anterior chamber. Micro-scissors are re-introduced to amputate this malpositioned haptic, which is then removed from the eye.",
+        "transcript": "Once the lens has been positioned, we then find that one of the haptics is now subluxing into the anterior chamber, so we amputate this haptic..."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion",
+          "Lens Subluxation / Dislocation / Dropped Nucleus"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "Ef8d5ssBN4M",
+    "split": "Train",
+    "title": "Cataract surgery with loose zonules, capsular tension ring, and vision blue 12-5-12",
+    "url": "https://www.youtube.com/watch?v=Ef8d5ssBN4M",
+    "anomalous_clips_count": 3,
+    "anomaly_categories": [
+      "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+    ],
+    "clips": [
+      {
+        "clip_id": "Ef8d5ssBN4M_clip_06",
+        "video_file": "clip_06.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A capsular tension ring (CTR) injector is inserted through the main corneal incision. The C-shaped CTR is slowly injected into the capsular bag and guided into the capsular fornix with a Sinskey hook to expand and stabilize the bag.",
+        "transcript": "We then elected to use a stabilized capsular tension ring... We inserted this capsular tension ring into the bag after we had taken out probably about half of the cataract."
+      },
+      {
+        "clip_id": "Ef8d5ssBN4M_clip_07",
+        "video_file": "clip_07.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "With the capsular bag stabilized by the CTR, an Irrigation/Aspiration (I/A) handpiece and a second manipulator are used to remove the remaining large, leathery pieces of the cataract nucleus and epinucleus.",
+        "transcript": "So once we have inserted the capsular tension ring, we're able to have a more stable capsular bag which allows me to safely remove the remainder of this cataract."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "HPX8EBCVm_s",
+    "split": "Train",
+    "title": "CataractCoach™ 2700: Aussie resident does a white cataract for case 330",
+    "url": "https://www.youtube.com/watch?v=HPX8EBCVm_s",
+    "anomalous_clips_count": 2,
+    "anomaly_categories": [
+      "Radial / Anterior Capsular Tear / Argentinian Flag Sign"
+    ],
+    "clips": [
+      {
+        "clip_id": "HPX8EBCVm_s_clip_05",
+        "video_file": "clip_05.mp4",
+        "anomalies": [
+          "Radial / Anterior Capsular Tear / Argentinian Flag Sign"
+        ],
+        "description": "A 27-gauge needle on a syringe is used to puncture the anterior capsule, aspirating liquefied cortical material to decompress the intumescent lens and prevent an Argentinian flag sign. The nucleus is gently rocked to confirm decompression.",
+        "transcript": "There's the nucleus being pierced by the 27-gauge needle here, aspirating out some of that liquefied lens cortex. ... there's the rocking of the nucleus. I like it."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Radial / Anterior Capsular Tear / Argentinian Flag Sign"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "Il-3LezVC-Q",
+    "split": "Train",
+    "title": "Phaco Debulk Chop for Dense Cataracts",
+    "url": "https://www.youtube.com/watch?v=Il-3LezVC-Q",
+    "anomalous_clips_count": 1,
+    "anomaly_categories": [
+      "Posterior Capsule Rupture / Tear"
+    ],
+    "clips": [
+      {
+        "clip_id": "Il-3LezVC-Q_clip_05",
+        "video_file": "clip_05.mp4",
+        "anomalies": [
+          "Posterior Capsule Rupture / Tear"
+        ],
+        "description": "To protect the posterior capsule during removal of the last nuclear fragment, a dispersive viscoelastic is injected behind the piece, creating a protective barrier (Viscoshell). The sharp chopper is exchanged for a blunt spatula-like instrument (Becker device). This instrument manipulates the last fragment and shields the posterior capsule as the phaco probe emulsifies and aspirates the remaining nuclear material.",
+        "transcript": "For that last fragment removal, this risk of course of post-occlusion surge and posterior capsule rupture, we're using a dispersive viscoelastic placed behind the lens material... and converting from a chopping second instrument to more of a blunt spatula like device here..."
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "K2OsUADOtLc",
+    "split": "Train",
+    "title": "CataractCoach™ 2676: shallow AC with iris prolapse and then MIGS for glaucoma",
+    "url": "https://www.youtube.com/watch?v=K2OsUADOtLc",
+    "anomalous_clips_count": 3,
+    "anomaly_categories": [
+      "Iris Prolapse / Trauma / Floppy Iris (IFIS)"
+    ],
+    "clips": [
+      {
+        "clip_id": "K2OsUADOtLc_clip_01",
+        "video_file": "clip_01.mp4",
+        "anomalies": [
+          "Iris Prolapse / Trauma / Floppy Iris (IFIS)"
+        ],
+        "description": "With an existing iris prolapse from a previous paracentesis visible superiorly, the surgeon uses a keratome blade to create a second paracentesis on the opposite side of the cornea.",
+        "transcript": "You see a patient like this, and the patient has a reasonably small pupil."
+      },
+      {
+        "clip_id": "K2OsUADOtLc_clip_06",
+        "video_file": "clip_06.mp4",
+        "anomalies": [
+          "Iris Prolapse / Trauma / Floppy Iris (IFIS)"
+        ],
+        "description": "The phaco probe is inserted to emulsify and aspirate the lens nucleus. A chopper is used as the second instrument to perform a vertical chop technique, breaking the nucleus into smaller, manageable pieces. During the procedure, the iris prolapses through the side-port incision, which is managed with the second instrument. The prolapse results in a small peripheral iris defect.",
+        "transcript": "Yep, vertical chop. Nicely spread. And let's see, rotating it. And another vertical chop."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Iris Prolapse / Trauma / Floppy Iris (IFIS)"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "N_jjTFa70_g",
+    "split": "Train",
+    "title": "Traumatic Subluxed Cataract with Fibrotic Anterior Capsule and Pupil Cerclage AHMED",
+    "url": "https://www.youtube.com/watch?v=N_jjTFa70_g",
+    "anomalous_clips_count": 9,
+    "anomaly_categories": [
+      "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia",
+      "Vitreous Prolapse / Anterior Vitrectomy",
+      "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+    ],
+    "clips": [
+      {
+        "clip_id": "N_jjTFa70_g_clip_01",
+        "video_file": "clip_01.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy"
+        ],
+        "description": "A cannula is inserted into the anterior chamber of an eye with a traumatic cataract and fibrotic capsule. A white, cloudy substance (triamcinolone) is injected, which stains and highlights prolapsed vitreous strands in the anterior chamber. Following this, a second cannula irrigates the anterior chamber with a clear solution (BSS) to wash away excess triamcinolone.",
+        "transcript": "We'll start off with injection of some triamcinolone to localize and visualize the vitreous. We'll inject it in a dilute formulation and then irrigate some BSS in the anterior chamber to isolate where these triamcinolone crystals will localize and stain the vitreous."
+      },
+      {
+        "clip_id": "N_jjTFa70_g_clip_02",
+        "video_file": "clip_02.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion",
+          "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+        ],
+        "description": "A viscoelastic cannula is used to inject a clear, gel-like ophthalmic viscosurgical device (OVD) into the anterior chamber, deepening it and pushing back the iris. The tip of the cannula is then used to mechanically dissect and release adhesions (posterior synechiae) between the iris and the anterior lens capsule, revealing a large area of zonular dialysis inferonasally.",
+        "transcript": "Viscoelastic is injected and we'll release some of that posterior synechiae present on the pupil margin and there you can see some vitreous present at the infranasal pupil margin as well as the edge of the lens... It's almost about 120 degrees or greater zonular dialysis."
+      },
+      {
+        "clip_id": "N_jjTFa70_g_clip_04",
+        "video_file": "clip_04.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy"
+        ],
+        "description": "The capsulorhexis is initiated with micro-scissors due to the highly fibrotic nature of the anterior capsule, which could not be punctured with a standard cystotome. Capsulorhexis forceps are then used to grasp the created flap, but propagation is difficult. The surgeon alternates between shearing and stretching techniques with two instruments (forceps and a second instrument for counter-traction) to manage the tear. The rhexis tears out superiorly. Ultimately, micro-scissors are used again to cut the remaining fibrotic tissue, resulting in an irregular, discontinuous anterior capsular opening.",
+        "transcript": "We've decided to do the capsulorhexis first prior to the vitrectomy... we're going to use some sharp micro scissors to actually start the capsulorhexis... We do get an initial tear and we'll use a couple micro forceps... we basically move to a stretch technique... and then turn the flap over to a shearing technique... we will then proceed to use a pair of micro scissors to complete the rhexis here... and we have now a capsulorhexis albeit a discontinuous one and an irregular one."
+      },
+      {
+        "clip_id": "N_jjTFa70_g_clip_05",
+        "video_file": "clip_05.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy",
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A bimanual approach is used for anterior vitrectomy. An irrigation cannula maintains anterior chamber stability while a vitrectomy cutter is used to remove the previously stained vitreous strands from the anterior chamber, particularly around the pupil margin in the area of zonular dialysis. Viscoelastic is injected to reform the chamber before the instruments are withdrawn.",
+        "transcript": "At this point now, we'll proceed to do some limited vitrectomy here using a bimanual technique through the limbal incisions... basically trim the vitreous from the pupil margin... keep the chamber formed before pulling out with our irrigation by injecting viscoelastic."
+      },
+      {
+        "clip_id": "N_jjTFa70_g_clip_07",
+        "video_file": "clip_07.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A phaco probe and a chopper instrument are introduced into the anterior chamber. The surgeon embeds the phaco probe into the nucleus and uses a vertical chop technique to crack the nucleus in half. Each heminucleus is then elevated toward the iris plane and emulsified. Care is taken to work away from the area of zonular dialysis. Viscoelastic is added to maintain chamber depth and protect the capsular bag throughout the process.",
+        "transcript": "We will proceed to phacoemulsification. The lens itself is moderately dense. We proceed to a vertical chop and crack the lens in half and we're going to actually do a little bit of a hemi flip here bringing each hemi section one at a time to the iris plane to phaco and emulsify the lens."
+      },
+      {
+        "clip_id": "N_jjTFa70_g_clip_08",
+        "video_file": "clip_08.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A 27-gauge cannula attached to a syringe is used for manual irrigation and aspiration of the remaining lens cortex. The surgeon carefully strips cortical material from the capsular bag fornix, being gentle due to the zonular weakness. The capsular bag is visibly mobile during this step.",
+        "transcript": "And now we'll basically remove the cortex. Now this is certainly a hazardous point in time and we've decided to use a manual technique, using a 27 gauge cannula to aspirate the cortex."
+      },
+      {
+        "clip_id": "N_jjTFa70_g_clip_09",
+        "video_file": "clip_09.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "The capsular bag is inflated with cohesive viscoelastic. A capsular tension ring (CTR) is then injected into the capsular bag. A Sinskey hook is used to dial the ring completely into the equatorial fornix of the bag, which expands and stabilizes the capsular bag in the presence of zonular dialysis.",
+        "transcript": "At this point in time we'll reinflate the capsule bag with some cohesive viscoelastic... we place a CTR by injecting it toward the dialysis. You can see the bag is now expanded, the capsule seems to be well-supported..."
+      },
+      {
+        "clip_id": "N_jjTFa70_g_clip_12",
+        "video_file": "clip_12.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy"
+        ],
+        "description": "With the anterior chamber filled with viscoelastic, a vitrectomy cutter is used in a 'dry' technique to remove residual vitreous strands from the inferonasal quadrant. A Kuglen hook is used simultaneously to retract the iris, providing better access and protecting the iris from the cutter.",
+        "transcript": "And then we'll finish off with just trimming whatever vitreous may be present in that inferior and inferonasal quadrant, using a dry technique under viscoelastic, using a Kuglen hook to push away the iris there."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy",
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion",
+          "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "Pii9WYsanEw",
+    "split": "Train",
+    "title": "Severe Microspherophakia Dislocated Lens",
+    "url": "https://www.youtube.com/watch?v=Pii9WYsanEw",
+    "anomalous_clips_count": 8,
+    "anomaly_categories": [
+      "Lens Subluxation / Dislocation / Dropped Nucleus",
+      "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+    ],
+    "clips": [
+      {
+        "clip_id": "Pii9WYsanEw_clip_01",
+        "video_file": "clip_01.mp4",
+        "anomalies": [
+          "Lens Subluxation / Dislocation / Dropped Nucleus"
+        ],
+        "description": "Following injection of viscoelastic and Trypan Blue dye, the surgeon uses bimanual microforceps to create a continuous curvilinear capsulorhexis. The tear is carefully guided to follow the contour of the small, subluxated capsular bag, resulting in an initially non-circular opening. The forceps are used to repeatedly grasp and re-grasp the capsule flap to control the tear.",
+        "transcript": "Bimanual grasping of the anterior capsule to promote the tear is started. And we're doing this capsular rhexis to make sure that we leave at least some lip of the anterior capsule, which will be needed for capsule support devices. But also, this capsular rhexis is being designed to follow the contour of the capsular bag."
+      },
+      {
+        "clip_id": "Pii9WYsanEw_clip_02",
+        "video_file": "clip_02.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "Two iris hooks are inserted through paracentesis incisions and carefully hooked onto the newly created capsulorhexis margin. These hooks provide temporary stabilization to the very loose capsular bag, holding it in place for subsequent steps.",
+        "transcript": "I'm using iris hooks here to support the capsular rhexis initially."
+      },
+      {
+        "clip_id": "Pii9WYsanEw_clip_04",
+        "video_file": "clip_04.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A capsular tension ring (CTR) is injected into the capsular bag. The ring expands within the bag's equator, providing circumferential support and further rounding out the bag's shape.",
+        "transcript": "I'm putting a CTR in early here to expand the capsular bag again for the same reasons."
+      },
+      {
+        "clip_id": "Pii9WYsanEw_clip_05",
+        "video_file": "clip_05.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A Cionni-type capsular tension segment (CTS), a hemi-ring device, is inserted into the capsular bag using forceps. Both eyelets of the CTS are tucked under the anterior capsular rim in the area of greatest zonular weakness.",
+        "transcript": "And now the capsular tension segment is used. This is a coat hanger-like device, a hemi-ring. Both islets are placed under the anterior capsule."
+      },
+      {
+        "clip_id": "Pii9WYsanEw_clip_06",
+        "video_file": "clip_06.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "An iris hook is inserted upside-down through a paracentesis and hooked through the central eyelet of the CTS. This provides temporary external support to the CTS and the area of zonular weakness during lensectomy.",
+        "transcript": "The central islet will be used in conjunction with an iris hook, which we place upside down through the islet. And this provides really broad support in the area where the zonules are weak."
+      },
+      {
+        "clip_id": "Pii9WYsanEw_clip_08",
+        "video_file": "clip_08.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "The supporting iris hook is removed, and the CTS is maneuvered from the capsular bag into the anterior chamber. A scleral incision is made externally. A 25-gauge needle is passed through the scleral incision into the anterior chamber. A 7-0 Gore-Tex suture is threaded through the needle tip (docking technique) and then passed through the eyelet of the CTS. Both ends of the suture now exit through the scleral incision.",
+        "transcript": "Now the CTS is now mobilized... and we will plan for suture placement... using a 7-0 Gore-Tex suture here in an ab-externo docking technique to place it through the CTS."
+      },
+      {
+        "clip_id": "Pii9WYsanEw_clip_09",
+        "video_file": "clip_09.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "Using two pairs of forceps, the surgeon ties the external Gore-Tex suture ends into a slip knot. This allows for adjustable tension to be applied to the CTS and capsular bag later in the procedure.",
+        "transcript": "As we see, the CTS is being tied in a slip knot here. A slip knot is important because we don't want to place too much tension on the device yet."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion",
+          "Lens Subluxation / Dislocation / Dropped Nucleus"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "QcX9MmbXglQ",
+    "split": "Train",
+    "title": "The Posterior Polar Cataract.  Shannon Wong, MD. 12-16-18",
+    "url": "https://www.youtube.com/watch?v=QcX9MmbXglQ",
+    "anomalous_clips_count": 3,
+    "anomaly_categories": [
+      "Posterior Capsule Rupture / Tear",
+      "Vitreous Prolapse / Anterior Vitrectomy"
+    ],
+    "clips": [
+      {
+        "clip_id": "QcX9MmbXglQ_clip_05",
+        "video_file": "clip_05.mp4",
+        "anomalies": [
+          "Posterior Capsule Rupture / Tear"
+        ],
+        "description": "The surgeon attempts to polish the posterior capsule using the I/A tip. Gentle pressure from the tip, even without aspiration, causes the fragile posterior capsule to tear, resulting in a posterior capsule rupture.",
+        "transcript": "The capsule opens with gentle pressure from the I/A tip without aspiration"
+      },
+      {
+        "clip_id": "QcX9MmbXglQ_clip_06",
+        "video_file": "clip_06.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy"
+        ],
+        "description": "To manage the rupture, a viscoelastic cannula is used to inject a dispersive viscoelastic (OcuCoat) followed by a cohesive viscoelastic (Healon GV) into the anterior chamber and capsular bag. This stabilizes the eye and provides a tamponade effect on the posterior capsule opening to prevent vitreous prolapse.",
+        "transcript": "So we fill the eye with viscoelastic, first OcuCoat and then secondly Healon GV to tamponade the posterior capsule..."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Posterior Capsule Rupture / Tear",
+          "Vitreous Prolapse / Anterior Vitrectomy"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "SqYNCvkYhls",
+    "split": "Train",
+    "title": "Traumatic Ruptured Cataract and Iridodialysis Repair",
+    "url": "https://www.youtube.com/watch?v=SqYNCvkYhls",
+    "anomalous_clips_count": 4,
+    "anomaly_categories": [
+      "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+    ],
+    "clips": [
+      {
+        "clip_id": "SqYNCvkYhls_clip_04",
+        "video_file": "clip_04.mp4",
+        "anomalies": [
+          "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+        ],
+        "description": "A Kugelhook is used to engage and gently sweep across the iris surface, attempting to break the posterior synechiae (adhesions) between the iris and the underlying anterior lens capsule. The adhesions appear firm and resistant.",
+        "transcript": "A Kugelhook is used to identify the areas of posterior synechiae which are fairly extensive and fairly strong. You can see with the Kugelhook it is difficult right now to dissect off the iris from the anterior capsule."
+      },
+      {
+        "clip_id": "SqYNCvkYhls_clip_07",
+        "video_file": "clip_07.mp4",
+        "anomalies": [
+          "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+        ],
+        "description": "A Kugelhook is used to further dissect the firm posterior synechiae connecting the iris to the anterior capsule rim. Viscoelastic is injected to assist in the separation of tissues.",
+        "transcript": "Again the Kugelhook is used. We have some further dissection of the iris from the anterior capsule."
+      },
+      {
+        "clip_id": "SqYNCvkYhls_clip_08",
+        "video_file": "clip_08.mp4",
+        "anomalies": [
+          "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+        ],
+        "description": "A bimanual technique is employed to release the tenacious synechiae. Microforceps grasp and stabilize the iris, providing counter-traction while a Kugelhook dissects the adhesions from the anterior capsule.",
+        "transcript": "And here we're using a pair of micro forceps to hold the iris while we're using a Kugelhook to release the synechiae. This is an effective strategy when the synechiae is fairly firm."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "SrzOrek2PVg",
+    "split": "Train",
+    "title": "CataractCoach™ 2706: get rid of that loose old bag! (capsular bag)",
+    "url": "https://www.youtube.com/watch?v=SrzOrek2PVg",
+    "anomalous_clips_count": 4,
+    "anomaly_categories": [
+      "Vitreous Prolapse / Anterior Vitrectomy",
+      "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+    ],
+    "clips": [
+      {
+        "clip_id": "SrzOrek2PVg_clip_04",
+        "video_file": "clip_04.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "Capsulorhexis forceps are introduced into the anterior chamber to grasp and remove the free-floating capsular disc created by the laser. The entire lens and capsular bag are seen to move significantly, indicating extreme zonular weakness.",
+        "transcript": "Oh my goodness, look how much it moves. There is just no capsule support here."
+      },
+      {
+        "clip_id": "SrzOrek2PVg_clip_05",
+        "video_file": "clip_05.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "Five capsule support hooks (iris hooks) are inserted through the paracentesis incisions. The hooks are carefully engaged with the edge of the capsulotomy to stabilize the entire capsular bag.",
+        "transcript": "Yeah, you definitely need capsule hooks here. So here comes some capsule hooks... And then this is all that's supporting the lens capsule or bag now."
+      },
+      {
+        "clip_id": "SrzOrek2PVg_clip_09",
+        "video_file": "clip_09.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy"
+        ],
+        "description": "Triamcinolone acetonide is injected into the anterior chamber, staining the vitreous strands white. A vitrectomy cutter and an infusion line are used to perform an anterior vitrectomy, clearing the vitreous from the anterior segment and incision sites.",
+        "transcript": "So here at this point, yeah, capsule bag is out, I'd put some triamcinolone. Exactly what I would do. Small gauge, 23-gauge vitrectomy here. Look, there's already some vitreous to the wound."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy",
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "VHdXce5W0uM",
+    "split": "Train",
+    "title": "Aborted phaco due to floppy iris prolapse",
+    "url": "https://www.youtube.com/watch?v=VHdXce5W0uM",
+    "anomalous_clips_count": 2,
+    "anomaly_categories": [
+      "Iris Prolapse / Trauma / Floppy Iris (IFIS)"
+    ],
+    "clips": [
+      {
+        "clip_id": "VHdXce5W0uM_clip_05",
+        "video_file": "clip_05.mp4",
+        "anomalies": [
+          "Iris Prolapse / Trauma / Floppy Iris (IFIS)"
+        ],
+        "description": "As the last nuclear fragment is removed, a viscoelastic cannula is introduced through a paracentesis to inject viscoelastic into the anterior chamber, specifically under the main incision, to prevent iris prolapse as the phaco probe is withdrawn.",
+        "transcript": "Before coming out of the eye, we're placing some viscoelastic under the incision just to keep the iris back..."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Iris Prolapse / Trauma / Floppy Iris (IFIS)"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "XgsTTFuf9P8",
+    "split": "Train",
+    "title": "CataractCoach™ 2748: should we do iris sphincterotomies for small pupils?",
+    "url": "https://youtu.be/XgsTTFuf9P8?si=MFiM24Na0IBu3_g7",
+    "anomalous_clips_count": 4,
+    "anomaly_categories": [
+      "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia",
+      "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+    ],
+    "clips": [
+      {
+        "clip_id": "XgsTTFuf9P8_clip_03",
+        "video_file": "clip_03.mp4",
+        "anomalies": [
+          "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+        ],
+        "description": "A second paracentesis is created with a side-port blade. A spatula is then inserted through the new incision and swept 360 degrees between the iris and the anterior lens capsule to break posterior synechiae.",
+        "transcript": "[00:36 - 00:44]: And now another paracentesis. Okay. And you may want to go with a spatula and kind of break those synechiae. Exactly. Well, synechiolysis there, 360."
+      },
+      {
+        "clip_id": "XgsTTFuf9P8_clip_05",
+        "video_file": "clip_05.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "The surgeon attempts to insert a B-Hex pupil expansion ring. The blue plastic device is maneuvered towards the pupil margin, but it breaks during the process and is subsequently removed from the eye.",
+        "transcript": "[01:11 - 01:18]: And the surgeon here is going to try to use, there you go, a B-Hex ring. This is a pupil expansion ring, placing it inside the eye. And look at that. It breaks."
+      },
+      {
+        "clip_id": "XgsTTFuf9P8_clip_06",
+        "video_file": "clip_06.mp4",
+        "anomalies": [
+          "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+        ],
+        "description": "Micro-scissors are introduced through the corneal incisions. Multiple small, radial cuts are made at the pupillary margin, cutting through the iris sphincter muscle to mechanically enlarge the pupil.",
+        "transcript": "[01:39 - 01:47]: But in this case, the surgeon is going to elect to do some mini iris sphincterotomies using micro scissors to make multiple small cuts here at the pupil sphincter."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion",
+          "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "YZsl_lCWRuo",
+    "split": "Train",
+    "title": "CataractCoach™ 2746: fixing acute glaucoma at the slit lamp",
+    "url": "https://youtu.be/YZsl_lCWRuo?si=TnYfozvdTi-PfCrV",
+    "anomalous_clips_count": 3,
+    "anomaly_categories": [
+      "Intraocular Bleeding / Hyphema / Iris Bleeding",
+      "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+    ],
+    "clips": [
+      {
+        "clip_id": "YZsl_lCWRuo_clip_03",
+        "video_file": "clip_03.mp4",
+        "anomalies": [
+          "Intraocular Bleeding / Hyphema / Iris Bleeding"
+        ],
+        "description": "In an eye with a significant hyphema, a needle is used to create a paracentesis and inject a large air bubble into the superior anterior chamber. A second paracentesis is then created inferiorly, and the needle, attached to a syringe, is used to aspirate the layered blood from the bottom of the chamber, aided by the pressure from the superior air bubble.",
+        "transcript": "A big air bubble, a gas bubble in the eye, just air. That's going to help put some pressure now. And now you can drain it... and get some of this blood out. And now you can slowly aspirate some of that."
+      },
+      {
+        "clip_id": "YZsl_lCWRuo_clip_04",
+        "video_file": "clip_04.mp4",
+        "anomalies": [
+          "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+        ],
+        "description": "In an eye with extensive posterior synechiae and iris bombé, a 30-gauge needle is inserted into the anterior chamber. The needle tip is used to perform synechialysis, breaking adhesions between the iris and the lens at the pupillary margin. The needle is then used for goniosynechialysis, sweeping the peripheral iris away from the iridocorneal angle.",
+        "transcript": "Now, here's using the needle to pull the iris out of the angle. That's, be careful doing this. This is the goniosynechialysis with a 30-gauge needle."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Intraocular Bleeding / Hyphema / Iris Bleeding",
+          "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "Yd0EJDI7-QM",
+    "split": "Train",
+    "title": "Horizontal Phaco Chop Technique for Efficient and Safe Cataract Surgery",
+    "url": "https://www.youtube.com/watch?v=Yd0EJDI7-QM",
+    "anomalous_clips_count": 3,
+    "anomaly_categories": [
+      "Intraocular Bleeding / Hyphema / Iris Bleeding"
+    ],
+    "clips": [
+      {
+        "clip_id": "Yd0EJDI7-QM_clip_02",
+        "video_file": "clip_02.mp4",
+        "anomalies": [
+          "Intraocular Bleeding / Hyphema / Iris Bleeding"
+        ],
+        "description": "After filling the anterior chamber with viscoelastic, capsulorhexis forceps are used to create a continuous circular opening in the anterior capsule. The surgeon initiates the tear by pinching the central capsule, creating a flap, and guiding it circumferentially to create a round, well-centered capsulorhexis.",
+        "transcript": "We'll make our capsulorhexis here, pinching in with the forceps and just closing them and we can start tearing around rhexis here... we want to create a nice round five to five and a half millimeter capsulorhexis, which is centered in the patient's visual axis"
+      },
+      {
+        "clip_id": "Yd0EJDI7-QM_clip_06",
+        "video_file": "clip_06.mp4",
+        "anomalies": [
+          "Intraocular Bleeding / Hyphema / Iris Bleeding"
+        ],
+        "description": "A cohesive viscoelastic is injected into the eye using a cannula, first filling and expanding the capsular bag to create space for the IOL, and then filling the anterior chamber to maintain space and protect the corneal endothelium.",
+        "transcript": "Of course now fill our capsular bag with our viscoelastic. This is the cohesive viscoelastic going inside the eye."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Intraocular Bleeding / Hyphema / Iris Bleeding"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "_MSkLCGcocU",
+    "split": "Train",
+    "title": "CataractCoach™ 2734: zonular loss and vitreous prolapse - tough case!",
+    "url": "https://youtu.be/_MSkLCGcocU?si=vP4rJE1hF2hOpJL_",
+    "anomalous_clips_count": 5,
+    "anomaly_categories": [
+      "Vitreous Prolapse / Anterior Vitrectomy",
+      "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+    ],
+    "clips": [
+      {
+        "clip_id": "_MSkLCGcocU_clip_02",
+        "video_file": "clip_02.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy"
+        ],
+        "description": "An infusion cannula is placed through a paracentesis to maintain anterior chamber pressure. A vitrectomy cutter is introduced through the pars plana trocar to remove vitreous that has prolapsed around the lens and into the anterior chamber.",
+        "transcript": "and now going in infusion in the AC and pars plana with the vitrectomy cutter be careful here... so do a little bit of a vitrectomy here we go clean up some of the vitreous that's prolapsed in the anterior chamber."
+      },
+      {
+        "clip_id": "_MSkLCGcocU_clip_04",
+        "video_file": "clip_04.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "Viscoelastic is injected to create space. Multiple capsular support hooks are inserted through the paracentesis incisions. The tips of the hooks are engaged under the capsulorhexis rim to stabilize the entire capsular bag.",
+        "transcript": "There you go, the capsule hooks. With these capsule hooks in around the lens, the capsulorhexis, into the lens equator, there they go. Cinch that up, get some support. Now you've got some reasonable support here."
+      },
+      {
+        "clip_id": "_MSkLCGcocU_clip_08",
+        "video_file": "clip_08.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A capsular tension ring (CTR) is injected from a single-use injector into the capsular bag. A Sinskey hook is used to guide the trailing end fully into the bag, providing circumferential support to the equator.",
+        "transcript": "definitely need a CTR on that bag... nice technique there beautifully done."
+      },
+      {
+        "clip_id": "_MSkLCGcocU_clip_10",
+        "video_file": "clip_10.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A capsular tension segment with an eyelet is placed into the capsular bag. A long needle with polypropylene suture is passed through the sclera, through the segment's eyelet, and then externalized. A second pass is made for the other end of the suture. The suture ends are trimmed, melted with cautery to form flanges, and tucked into the sclera to securely fixate the entire complex.",
+        "transcript": "There's the Ahmed segment going in... making a flange there... you've got to bury the flange within the sclera... cautery, cautery, cautery... get that thing buried... there we go, now we're talking."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy",
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "_dbm8HZpjGc",
+    "split": "Train",
+    "title": "How cortex removal can lead to a retina tear or retina detachment",
+    "url": "https://www.youtube.com/watch?v=_dbm8HZpjGc",
+    "anomalous_clips_count": 3,
+    "anomaly_categories": [
+      "Vitreous Prolapse / Anterior Vitrectomy"
+    ],
+    "clips": [
+      {
+        "clip_id": "_dbm8HZpjGc_clip_07",
+        "video_file": "clip_07.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy"
+        ],
+        "description": "While aspirating near the 10 o'clock position, a translucent, stringy strand is engaged by the I/A tip. It behaves differently than cortex, indicating it is vitreous that has prolapsed into the anterior chamber.",
+        "transcript": "And then we notice there's a strand of cortex or maybe that's not cortex emanating from 10 o'clock. We realize that's vitreous. That is not cortex..."
+      },
+      {
+        "clip_id": "_dbm8HZpjGc_clip_08",
+        "video_file": "clip_08.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy"
+        ],
+        "description": "Viscoelastic is injected to push the vitreous back and stabilize the chamber. Westcott scissors are used to cut the vitreous strand. After a brief attempt at polishing, vitreous re-presents, and 23-gauge micro-scissors are used to perform a more precise cut of the vitreous band near the zonules, causing it to retract.",
+        "transcript": "We fill the eye with a little bit of viscoelastic and then introduce our Westcott scissors to cut this band within the eye. ... so we elect to use 23 gauge micro scissors to cut this band. once we've cut the band closer to the zonules, the vitreous strand actually is pulled back into the eye."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "dyULyqVNWYk",
+    "split": "Train",
+    "title": "Iris suture fixation of a posterior chamber IOL (tecnis multifocal) 1-14-13",
+    "url": "https://www.youtube.com/watch?v=dyULyqVNWYk",
+    "anomalous_clips_count": 2,
+    "anomaly_categories": [
+      "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+    ],
+    "clips": [
+      {
+        "clip_id": "dyULyqVNWYk_clip_03",
+        "video_file": "clip_03.mp4",
+        "anomalies": [
+          "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+        ],
+        "description": "With the pupil constricted, the surgeon passes a long, curved needle with a 10-0 suture through a paracentesis. The needle is guided to pierce the iris, pass underneath the IOL haptic, and then re-emerge through the iris tissue on the other side of the haptic. The needle is then externalized through a separate paracentesis. The process is shown for both the superior and inferior haptics, capturing each one with a suture pass.",
+        "transcript": "We use a 10-0 nylon suture on a long needle... We do the same thing for the inferior haptic here."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "eAIZjIKBK_c",
+    "split": "Train",
+    "title": "Small pupil, dense black cataract surgery Ike Ahmed",
+    "url": "https://www.youtube.com/watch?v=eAIZjIKBK_c",
+    "anomalous_clips_count": 3,
+    "anomaly_categories": [
+      "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+    ],
+    "clips": [
+      {
+        "clip_id": "eAIZjIKBK_c_clip_03",
+        "video_file": "clip_03.mp4",
+        "anomalies": [
+          "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+        ],
+        "description": "A Sinskey hook is inserted into the anterior chamber and used to gently sweep and break the posterior synechiae, which are adhesions between the iris and the anterior lens capsule, thereby freeing the pupil margin.",
+        "transcript": "...and then we would release the posterior synechiae present from the anterior capsule gently with a Sinskey hook."
+      },
+      {
+        "clip_id": "eAIZjIKBK_c_clip_04",
+        "video_file": "clip_04.mp4",
+        "anomalies": [
+          "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+        ],
+        "description": "A cannula is placed under the iris and over the anterior lens capsule. Trypan blue dye is injected in a controlled manner, painting the surface of the capsule to improve its visibility for the capsulorhexis.",
+        "transcript": "We're going to now inject some Trypan Blue under the cohesive viscoelastic. We like this technique here after the synechiae had been released."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "fBcOgZP43_s",
+    "split": "Train",
+    "title": "Congenital Posterior Polar Cataract: Detailed Surgical Technique",
+    "url": "https://www.youtube.com/watch?v=fBcOgZP43_s",
+    "anomalous_clips_count": 3,
+    "anomaly_categories": [
+      "Posterior Capsule Rupture / Tear",
+      "Vitreous Prolapse / Anterior Vitrectomy"
+    ],
+    "clips": [
+      {
+        "clip_id": "fBcOgZP43_s_clip_11",
+        "video_file": "clip_11.mp4",
+        "anomalies": [
+          "Posterior Capsule Rupture / Tear"
+        ],
+        "description": "A 27-gauge needle is used to puncture the posterior capsule behind the IOL optic. Viscoelastic is injected behind the capsule to separate it from the anterior hyaloid face. Microforceps are then inserted to create a continuous circular tear in the posterior capsule.",
+        "transcript": "Here we're using a 27-gauge needle with viscoelastic. Here we're going to puncture the posterior capsule, place the bevel into the Burger space and inject viscoelastic... This is a micro forceps here, used to propagate the capsular rhexis."
+      },
+      {
+        "clip_id": "fBcOgZP43_s_clip_12",
+        "video_file": "clip_12.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy"
+        ],
+        "description": "A Sinskey hook is used to gently press down on the IOL optic, pushing it posteriorly through the newly created posterior capsulorhexis opening. This secures the optic behind both the anterior and posterior capsule remnants, a technique known as buttonholing or posterior optic capture.",
+        "transcript": "we can now place this lens in a posterior optic buttonhole position without vitrectomy here... the plastic of the optic will prevent that from going in the central visual axis and there's no need to do vitrectomy."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Posterior Capsule Rupture / Tear"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "jkyG9KFbMFU",
+    "split": "Train",
+    "title": "CataractCoach 1028: complete cataract case: keys to efficiency",
+    "url": "https://www.youtube.com/watch?v=jkyG9KFbMFU",
+    "anomalous_clips_count": 3,
+    "anomaly_categories": [
+      "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+    ],
+    "clips": [
+      {
+        "clip_id": "jkyG9KFbMFU_clip_07",
+        "video_file": "clip_07.mp4",
+        "anomalies": [
+          "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+        ],
+        "description": "Following hydrodissection, which caused some viscoelastic egress and pupil constriction, a small amount of dispersive viscoelastic is re-injected onto the central corneal endothelium for protection.",
+        "transcript": "So let's give a little extra small aliquot of viscoelastic right at that central corneal endothelium. Not a huge fill, just a little bit."
+      },
+      {
+        "clip_id": "jkyG9KFbMFU_clip_08",
+        "video_file": "clip_08.mp4",
+        "anomalies": [
+          "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+        ],
+        "description": "The phaco probe is introduced bevel-down, along with a chopper. The nucleus is engaged, and a vertical chop is performed to split it in half. Each half is then brought to the iris plane, further sub-chopped into smaller fragments, and emulsified. The pupil constricts during this process.",
+        "transcript": "Here's the phaco probe. We're going to use a high vacuum, high flow setting. And we're going to chop it right there in the bag. So probe going in, I like bevel down. There's the chopper. So embed the phaco probe. Let's place the chopper in the nucleus, bring them together and separate. There's two halves."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "kD28gc6oqV4",
+    "split": "Train",
+    "title": "CataractCoach™ 2658: Resident case 260 with pupil ring",
+    "url": "https://www.youtube.com/watch?v=kD28gc6oqV4",
+    "anomalous_clips_count": 4,
+    "anomaly_categories": [
+      "Iris Prolapse / Trauma / Floppy Iris (IFIS)",
+      "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia",
+      "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+    ],
+    "clips": [
+      {
+        "clip_id": "kD28gc6oqV4_clip_03",
+        "video_file": "clip_03.mp4",
+        "anomalies": [
+          "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+        ],
+        "description": "A cannula is inserted through the paracentesis to inject anesthetic fluid into the anterior chamber, causing pupil constriction followed by dilation.",
+        "transcript": "Maybe some anesthetic going inside the eye."
+      },
+      {
+        "clip_id": "kD28gc6oqV4_clip_05",
+        "video_file": "clip_05.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A Malyugin ring is inserted using an injector. The leading scroll and two side scrolls are engaged onto the pupil margin. A second instrument (manipulator) is used to engage the final, sub-incisional scroll, achieving a square-shaped pupil.",
+        "transcript": "Here you go going inside the eye. Now, let's watch the technique. So delivering it, delivering it. Let's see that leading scroll. Get that right on the iris. Good job."
+      },
+      {
+        "clip_id": "kD28gc6oqV4_clip_16",
+        "video_file": "clip_16.mp4",
+        "anomalies": [
+          "Iris Prolapse / Trauma / Floppy Iris (IFIS)"
+        ],
+        "description": "The I/A probe is used to remove viscoelastic from the anterior chamber. Due to the oversized incision, the iris prolapses out of the main wound. The surgeon attempts to reposit the iris with the I/A probe.",
+        "transcript": "now you got iris prolapse"
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion",
+          "Iris Prolapse / Trauma / Floppy Iris (IFIS)",
+          "Pupil Constriction / Iris Suturing / Sphincterotomy / Synechia"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "mD-DG5NZulU",
+    "split": "Train",
+    "title": "Cataract Surgery with Phacodonesis - Do we place a PanOptix Lens or a Monofocal Lens?",
+    "url": "https://www.youtube.com/watch?v=mD-DG5NZulU",
+    "anomalous_clips_count": 7,
+    "anomaly_categories": [
+      "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+    ],
+    "clips": [
+      {
+        "clip_id": "mD-DG5NZulU_clip_01",
+        "video_file": "clip_01.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A pre-operative slit-lamp view of the patient's right eye, showing a cataractous lens. The lens is observed to shake and oscillate with eye movement, a sign of phacodonesis or zonular laxity.",
+        "transcript": "Upon initial inspection of the lens through the microscope, we noticed that the lens shakes and oscillates in an unusual manner indicating phacodenesis and likely loose zonules."
+      },
+      {
+        "clip_id": "mD-DG5NZulU_clip_04",
+        "video_file": "clip_04.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A cystotome is used to puncture and lift the edge of the laser-created anterior capsule flap. Due to zonular laxity, the capsule is very mobile. Additional viscoelastic (Healon) is injected. Capsulorhexis forceps are then used to grasp and remove the free-floating circular capsule flap.",
+        "transcript": "When we attempt to pierce the anterior capsule, there's increased laxity noted with the anterior capsule. We then use Healon to fill the anterior chamber. ... As we perform our capsulorhexis, we note there is definitely less resistance to pulling on the anterior capsule..."
+      },
+      {
+        "clip_id": "mD-DG5NZulU_clip_08",
+        "video_file": "clip_08.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "An irrigation/aspiration (I/A) tip is used to remove the residual soft lens cortex from the capsular bag. The edge of the capsulorhexis is observed to move centrally as cortex is aspirated, indicating significant zonular weakness.",
+        "transcript": "Next we begin removal of cortex with the I/A tip. But as I see the anterior capsule edge at 9 o'clock move centrally as the cortex is aspirated..."
+      },
+      {
+        "clip_id": "mD-DG5NZulU_clip_09",
+        "video_file": "clip_09.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "Due to the observed capsular bag instability, the I/A tip is removed. Four capsular retractors (hooks) are inserted through paracentesis incisions and hooked onto the capsulorhexis rim to stabilize and support the capsular bag.",
+        "transcript": "...the decision is made to place more viscoelastic into the eye, remove the I/A tip, and then place capsular retractors to support the capsular bag..."
+      },
+      {
+        "clip_id": "mD-DG5NZulU_clip_10",
+        "video_file": "clip_10.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "With the capsular bag now stabilized by the retractors, the I/A tip is reintroduced to safely remove the remaining cortical material without causing further stress on the zonules.",
+        "transcript": "With the capsule retractors now in place, we can more confidently and safely remove the remaining cortex with less concern about creating zonular dehiscence during this process."
+      },
+      {
+        "clip_id": "mD-DG5NZulU_clip_11",
+        "video_file": "clip_11.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A capsular tension ring (CTR) is injected into the equatorial region of the capsular bag using an injector. The ring expands within the bag to provide long-term circumferential support.",
+        "transcript": "Once the cortex has been removed and the posterior capsule polished, a capsular tension ring is inserted to provide more stability for the capsular bag."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "mfQXeuUcJdU",
+    "split": "Train",
+    "title": "CataractCoach™ 2704: cataract after a ruptured globe repair",
+    "url": "https://www.youtube.com/watch?v=mfQXeuUcJdU&pp=0gcJCfsJAYcqIYzv",
+    "anomalous_clips_count": 2,
+    "anomaly_categories": [
+      "Radial / Anterior Capsular Tear / Argentinian Flag Sign"
+    ],
+    "clips": [
+      {
+        "clip_id": "mfQXeuUcJdU_clip_04",
+        "video_file": "clip_04.mp4",
+        "anomalies": [
+          "Radial / Anterior Capsular Tear / Argentinian Flag Sign"
+        ],
+        "description": "A coaxial irrigation/aspiration probe is introduced. The surgeon aspirates the remaining soft lens cortex. As the lens matter is cleared, the red reflex is restored, fully revealing the extensive tear in the anterior capsule (Argentinian flag sign) and the intact posterior capsule.",
+        "transcript": "So now cleaning out this lens material here. I get that you're using a coaxial probe, but you had that beautiful bimanual setup; I would have stuck with that."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Radial / Anterior Capsular Tear / Argentinian Flag Sign"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "qLrKnM9aWS8",
+    "split": "Train",
+    "title": "EyeComplex is about to Drop",
+    "url": "https://www.youtube.com/watch?v=qLrKnM9aWS8",
+    "anomalous_clips_count": 4,
+    "anomaly_categories": [
+      "Vitreous Prolapse / Anterior Vitrectomy",
+      "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+    ],
+    "clips": [
+      {
+        "clip_id": "qLrKnM9aWS8_clip_01",
+        "video_file": "clip_01.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy",
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A vitrectomy probe is inserted into the anterior chamber to remove prolapsed vitreous and residual lens material. A second instrument manipulates the lens capsule. This is performed due to extensive zonular dialysis indicated by the red arrow.",
+        "transcript": "...zonular dialysis requiring a vitrectomy initially to remove vitreous from the anterior segment."
+      },
+      {
+        "clip_id": "qLrKnM9aWS8_clip_03",
+        "video_file": "clip_03.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A capsular tension ring (CTR) is injected into the capsular bag. A manipulator is used to guide the trailing end of the CTR fully into the bag, providing circumferential support to the equator.",
+        "transcript": "A capsular tension ring is placed in the bag..."
+      },
+      {
+        "clip_id": "qLrKnM9aWS8_clip_04",
+        "video_file": "clip_04.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A capsular tension segment (CTS) is placed inside the capsular bag at the location of the zonular dialysis. A long needle carrying a Gore-Tex suture is passed through the sclera, through the eyelet of the CTS, and then externalized, securing the CTS and the entire capsular bag to the scleral wall.",
+        "transcript": "...followed by the placement of a capture tension segment which is sutured to the sclera in the area of the zonular dialysis with 7-0 Goretex suture."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy",
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "qv7_iVwl1BE",
+    "split": "Train",
+    "title": "how to make an ideal corneal phaco incision for cataract surgery",
+    "url": "https://www.youtube.com/watch?v=qv7_iVwl1BE",
+    "anomalous_clips_count": 2,
+    "anomaly_categories": [
+      "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+    ],
+    "clips": [
+      {
+        "clip_id": "qv7_iVwl1BE_clip_03",
+        "video_file": "clip_03.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A metal fixation ring is placed onto the surface of the globe to provide counter-traction and stabilize the eye.",
+        "transcript": "So place the fixation ring to hold the globe."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "s9CYeGi7ecs",
+    "split": "Train",
+    "title": "CataractCoach™ 2703: lens milk leaks into vitreous cavity",
+    "url": "https://www.youtube.com/watch?v=s9CYeGi7ecs",
+    "anomalous_clips_count": 1,
+    "anomaly_categories": [
+      "Vitreous Prolapse / Anterior Vitrectomy"
+    ],
+    "clips": [
+      {
+        "clip_id": "s9CYeGi7ecs_clip_07",
+        "video_file": "clip_07.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy"
+        ],
+        "description": "A cannula is used to hydrate the corneal incisions to ensure they are sealed. The final view shows the IOL well-centered in the capsular bag, but the view of the posterior segment is obscured by the persistent milky fluid in the vitreous cavity.",
+        "transcript": "I think I would just finish the case like this as a cataract surgeon and refer the patient to a vitreoretinal colleague probably for a full vitrectomy. I just don't want that big inflammatory load in the vitreous cavity."
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "zht7s_LQSus",
+    "split": "Train",
+    "title": "Laser cataract surgery - brunescent cataract, Mackool capsular support, zonular dialysis.  11-15-14",
+    "url": "https://www.youtube.com/watch?v=zht7s_LQSus",
+    "anomalous_clips_count": 5,
+    "anomaly_categories": [
+      "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+    ],
+    "clips": [
+      {
+        "clip_id": "zht7s_LQSus_clip_03",
+        "video_file": "clip_03.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "Due to the density of the nucleus, the phaco probe is removed. The surgeon uses two micro-instruments (choppers/manipulators) to bimanually crack the nucleus along the sculpted grooves. During this maneuver, significant zonular weakness becomes evident as the capsular bag equator is visible from the 9 to 12 o'clock position.",
+        "transcript": "After we've created our two grooves, we find that there's a posterior plate that is difficult to crack. So we fill the eye with a generous amount of cohesive viscoelastic and we use two micro instruments to manually rotate and crack this lens. But in the process of cracking the lens we see from 9 o'clock until 12 o'clock in the video that the equator of the bag is visible, indicating loss of zonular integrity in that area."
+      },
+      {
+        "clip_id": "zht7s_LQSus_clip_05",
+        "video_file": "clip_05.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "Two Mackool capsular support hooks are inserted through the sclera, passed into the anterior chamber, and carefully hooked onto the edge of the capsulorhexis to stabilize the capsular bag in the area of zonular weakness.",
+        "transcript": "...and we insert two McCool capsular support system retractors. These retractors are designed to hold the capsular bag..."
+      },
+      {
+        "clip_id": "zht7s_LQSus_clip_07",
+        "video_file": "clip_07.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "After removing the nucleus, an injector is used to insert a Morcher capsular tension ring (CTR) into the capsular bag. The ring is carefully guided into the capsular fornix to provide circumferential support.",
+        "transcript": "...we then insert a Morcher capsular tension ring. It's going to provide us long-term bag stability..."
+      },
+      {
+        "clip_id": "zht7s_LQSus_clip_08",
+        "video_file": "clip_08.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "The irrigation/aspiration (I/A) handpiece is used to remove the remaining soft lens cortex from the capsular bag. The procedure is performed with the CTR already in place.",
+        "transcript": "...we're able to complete the remainder of irrigation and aspiration of the cortex even in the presence of this capsular tension ring."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "zl5k3FBUYx0",
+    "split": "Train",
+    "title": "CataractCoach 1288: subtleties of efficient cataract surgery",
+    "url": "https://www.youtube.com/watch?v=zl5k3FBUYx0",
+    "anomalous_clips_count": 2,
+    "anomaly_categories": [
+      "Subconjunctival / Limbal Hemorrhage / Incision Bleed"
+    ],
+    "clips": [
+      {
+        "clip_id": "zl5k3FBUYx0_clip_04",
+        "video_file": "clip_04.mp4",
+        "anomalies": [
+          "Subconjunctival / Limbal Hemorrhage / Incision Bleed"
+        ],
+        "description": "A keratome is used to create a multi-planar clear corneal main incision. A small amount of bleeding from limbal vessels is noted.",
+        "transcript": "Here comes our main incision. Hitting those limbal vessels. Barely. Good tunnel length. Good architecture. I like it."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Subconjunctival / Limbal Hemorrhage / Incision Bleed"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "C38Z1EOsOAA",
+    "split": "Validation",
+    "title": "How to fix a decentered and tilted IOL after intra-scleral haptic fixation (ISHF)?",
+    "url": "https://www.youtube.com/watch?v=C38Z1EOsOAA",
+    "anomalous_clips_count": 1,
+    "anomaly_categories": [
+      "Vitreous Prolapse / Anterior Vitrectomy"
+    ],
+    "clips": [
+      {
+        "clip_id": "C38Z1EOsOAA_clip_08",
+        "video_file": "clip_08.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy"
+        ],
+        "description": "The surgeon performs a final visual inspection, confirming the IOL is now well-centered and planar. The anterior chamber maintainer is removed from the eye, and the corneal incisions are hydrated to ensure they are sealed.",
+        "transcript": "The lens implant is planar. It looks well centered. We remove our anterior chamber maintainer. Remember a vitrectomy had already been done during this patient's first surgery. We close the incisions and as we're looking at the eye, we kind of think to ourselves, hey, if this was my eye, I'd be completely satisfied with the position and orientation of this implant."
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "E4VLx3fVyEg",
+    "split": "Validation",
+    "title": "Hand Positioning and simultaneous Microscope View in Cataract Surgery",
+    "url": "https://www.youtube.com/watch?v=E4VLx3fVyEg",
+    "anomalous_clips_count": 1,
+    "anomaly_categories": [
+      "Iris Prolapse / Trauma / Floppy Iris (IFIS)"
+    ],
+    "clips": [
+      {
+        "clip_id": "E4VLx3fVyEg_clip_15",
+        "video_file": "clip_15.mp4",
+        "anomalies": [
+          "Iris Prolapse / Trauma / Floppy Iris (IFIS)"
+        ],
+        "description": "A cannula is used to inject balanced salt solution into the stromal sides of the main corneal incision. This hydration causes the tissue to swell, ensuring a watertight seal. A small amount of prolapsed iris is pushed back into the eye.",
+        "transcript": "And now it's time to seal up the incisions here. ... little iris prolapse, we'll push that back in the eye... and a little bit more hydration of the incision."
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "O0UYf4hxdag",
+    "split": "Validation",
+    "title": "the most important cataract surgery lesson",
+    "url": "https://www.youtube.com/watch?v=O0UYf4hxdag",
+    "anomalous_clips_count": 3,
+    "anomaly_categories": [
+      "Intraocular Bleeding / Hyphema / Iris Bleeding",
+      "Subconjunctival / Limbal Hemorrhage / Incision Bleed"
+    ],
+    "clips": [
+      {
+        "clip_id": "O0UYf4hxdag_clip_03",
+        "video_file": "clip_03.mp4",
+        "anomalies": [
+          "Subconjunctival / Limbal Hemorrhage / Incision Bleed"
+        ],
+        "description": "A keratome is used to create the main clear corneal incision superiorly. A small subconjunctival hemorrhage is noted as the blade creates the wound tunnel.",
+        "transcript": ""
+      },
+      {
+        "clip_id": "O0UYf4hxdag_clip_08",
+        "video_file": "clip_08.mp4",
+        "anomalies": [
+          "Intraocular Bleeding / Hyphema / Iris Bleeding"
+        ],
+        "description": "A cannula injects viscoelastic into the eye, inflating the capsular bag and filling the anterior chamber to create space for the intraocular lens (IOL).",
+        "transcript": ""
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Intraocular Bleeding / Hyphema / Iris Bleeding",
+          "Subconjunctival / Limbal Hemorrhage / Incision Bleed"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "RbEwGnyLL58",
+    "split": "Validation",
+    "title": "CataractCoach.com with a routine cataract surgery case using phaco chop",
+    "url": "https://www.youtube.com/watch?v=RbEwGnyLL58",
+    "anomalous_clips_count": 2,
+    "anomaly_categories": [
+      "Intraocular Bleeding / Hyphema / Iris Bleeding"
+    ],
+    "clips": [
+      {
+        "clip_id": "RbEwGnyLL58_clip_08",
+        "video_file": "clip_08.mp4",
+        "anomalies": [
+          "Intraocular Bleeding / Hyphema / Iris Bleeding"
+        ],
+        "description": "A viscoelastic cannula is used to inject cohesive viscoelastic, inflating the capsular bag and filling the anterior chamber to create space for the intraocular lens.",
+        "transcript": "[03:24 - 03:29]: We'll now fill the eye with our cohesive viscoelastic."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Intraocular Bleeding / Hyphema / Iris Bleeding"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  },
+  {
+    "youtube_video_id": "vT4otn4YXdE",
+    "split": "Validation",
+    "title": "HumanOptics Iris Prosthesis and Sutured Capsular Tension Segment for Traumatic Cataract",
+    "url": "https://www.youtube.com/watch?v=vT4otn4YXdE",
+    "anomalous_clips_count": 8,
+    "anomaly_categories": [
+      "Lens Subluxation / Dislocation / Dropped Nucleus",
+      "Vitreous Prolapse / Anterior Vitrectomy",
+      "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+    ],
+    "clips": [
+      {
+        "clip_id": "vT4otn4YXdE_clip_01",
+        "video_file": "clip_01.mp4",
+        "anomalies": [
+          "Lens Subluxation / Dislocation / Dropped Nucleus"
+        ],
+        "description": "Using capsulorhexis forceps, the surgeon creates a circular opening in the anterior capsule of the traumatically dislocated lens. The tear is guided carefully around the periphery to create a continuous capsular flap, following the contour of the subluxated lens equator.",
+        "transcript": "The capsulorhexis here is performed to follow the contour of the lens equator, making sure we leave enough of an anterior capsular shelf to place capsular retractors..."
+      },
+      {
+        "clip_id": "vT4otn4YXdE_clip_02",
+        "video_file": "clip_02.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "Three capsular retractors are inserted through paracentesis ports. The hooks engage the edge of the capsulorhexis to stabilize and center the capsular bag, compensating for the area of zonular dialysis.",
+        "transcript": "These are the MST capsular retractors, very helpful in these significant zonulopathy cases, typically placing two or three along the area of the zonular dialysis."
+      },
+      {
+        "clip_id": "vT4otn4YXdE_clip_04",
+        "video_file": "clip_04.mp4",
+        "anomalies": [
+          "Vitreous Prolapse / Anterior Vitrectomy"
+        ],
+        "description": "A phaco handpiece and a chopper instrument are introduced into the anterior chamber. The surgeon uses a vertical chop technique to break the nucleus into smaller fragments, which are then emulsified and aspirated from the capsular bag.",
+        "transcript": "...a phaco chop, and this phaco goes fairly uneventfully, making sure we keep that chamber formed to avoid any vitreous prolapse..."
+      },
+      {
+        "clip_id": "vT4otn4YXdE_clip_06",
+        "video_file": "clip_06.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A capsular tension ring (CTR) is injected into the capsular bag. A Sinskey hook is used to guide the CTR fully into the equatorial fornix of the bag, which helps to expand and stabilize it.",
+        "transcript": "We've now cleared the capsular bag, we'll keep the AC formed with viscoelastic, the capsular tension ring is used, CTR here, and this will round out the capsular bag..."
+      },
+      {
+        "clip_id": "vT4otn4YXdE_clip_08",
+        "video_file": "clip_08.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A partial-thickness scleral groove is created with a blade near the limbus, in the area corresponding to the zonular dialysis.",
+        "transcript": "One and a half millimeters back from the posterior edge of that blue zone is where we make our groove."
+      },
+      {
+        "clip_id": "vT4otn4YXdE_clip_09",
+        "video_file": "clip_09.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "A capsular tension segment (CTS) is placed into the capsular bag. A 7-0 GORE-TEX suture is passed from outside the eye (ab externo) through the scleral groove using a 25-gauge needle for docking. The suture is threaded through the CTS eyelet and externalized, preparing it for fixation to the scleral wall.",
+        "transcript": "This is the capsular tension segment being placed here, and we're going to use 7-0 GORE-TEX... using a docking approach, ab externo with the 25 gauge needle... this will support that bag long term with GORE-TEX suture."
+      },
+      {
+        "clip_id": "vT4otn4YXdE_clip_14",
+        "video_file": "clip_14.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion"
+        ],
+        "description": "Using two pairs of microforceps, the surgeon ties the externalized GORE-TEX suture to fixate the CTS to the scleral wall. The suture knot is then trimmed and carefully buried into the previously created scleral groove. The final view shows a well-centered IOL and artificial iris complex.",
+        "transcript": "Finally, we will lock that suture in place and bury the knot..."
+      },
+      {
+        "clip_id": "full_video",
+        "video_file": "full_video.mp4",
+        "anomalies": [
+          "Zonular Dialysis / Dehiscence / CTR / CTS Insertion",
+          "Lens Subluxation / Dislocation / Dropped Nucleus"
+        ],
+        "description": "",
+        "transcript": ""
+      }
+    ]
+  }
+]

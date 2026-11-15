@@ -1,0 +1,148 @@
+# ============================================================
+# Video Pipeline Configuration
+# All API keys live in .env (one placeholder per section below).
+# Text-only LLM stages use OpenAI-compatible endpoints (base_url + model).
+# Only the VLM analyst stage uses the Google GenAI SDK (YouTube URLs).
+# ============================================================
+
+# Directory Configuration
+directories:
+  videos: "./videos"
+  videos_down: "./videos_down"
+  audio: "./audio"
+  transcripts: "./transcripts"
+  refined_transcripts: "./refined_transcripts"
+  vlm_dataset: "./vlm_dataset"
+  adverse_events: "./adverse_events"
+  clips: "./clip_dataset"
+  dataset: "./dataset"
+  dataset_sft: "./dataset_sft"
+  dataset_grpo: "./dataset_grpo"
+
+# Files
+files:
+  metadata_csv: "video_metadata.csv"
+  cookies: "cookie.txt"
+  refinement_log: "refinement_log.csv"
+  video_links: "youtube_links.txt"
+  dataset_summary: "dataset_info.csv"
+
+# Download Settings
+download:
+  max_duration_seconds: 1500
+
+# Transcription Settings
+whisper:
+  model_size: "large"
+  device: "cuda" # or 'cpu'
+
+# ------------------------------------------------------------
+# Text refinement (OpenAI-compatible endpoint)
+# API key: REFINER_API_KEY
+# ------------------------------------------------------------
+refiner:
+  base_url: "https://api.cerebras.ai/v1"
+  model: "qwen-3-235b-a22b-instruct-2507"
+  api_key_env: "REFINER_API_KEY"
+  api_call_delay_seconds: 20
+  max_files_per_run: 300
+
+# VLM Dataset Generation Settings
+# Gatekeeper: text-only quality check (OpenAI-compatible endpoint)
+#   API key: VLM_GATEKEEPER_API_KEY
+# Analyst: video analysis via YouTube URL (Google GenAI SDK only)
+#   API key: GEMINI_API_KEY
+vlm:
+  gatekeeper:
+    base_url: "https://api.gapgpt.app/v1"
+    model: "gemini-2.0-flash"
+    api_key_env: "VLM_GATEKEEPER_API_KEY"
+  analyst:
+    model: "gemini-2.5-pro"
+    api_key_env: "GEMINI_API_KEY"
+  aggregate_file: "vlm_dataset_all.jsonl"
+  log_file: "process_log.csv"
+
+# Adverse Event Detector Settings (OpenAI-compatible endpoint)
+# API key: ADVERSE_EVENT_API_KEY
+adverse_event:
+  base_url: "https://api.gapgpt.app/v1"
+  model: "gemini-2.5-flash"
+  api_key_env: "ADVERSE_EVENT_API_KEY"
+  aggregate_file: "adverse_events_all.jsonl"
+  log_file: "adverse_event_log.csv"
+
+# Downsampling Settings
+downsample:
+  target_fps: 10
+  input_dir: "./videos"
+  output_dir: "./videos_down"
+
+# Splitter Settings
+splitter:
+  # Cut clips from the downsampled videos so the dataset is 10 fps.
+  videos_dir: "./videos_down"
+  log_file: "split_log.csv"
+
+# Dataset Formatter Settings (SFT & GRPO) — OpenAI-compatible endpoint
+# API key: FORMATTER_API_KEY
+dataset_formatter:
+  output_dir: "./training_datasets"
+  base_url: "https://api.gapgpt.app/v1"
+  model: "gemini-3-flash-preview"
+  api_key_env: "FORMATTER_API_KEY"
+  log_file: "dataset_formatter_log.csv"
+  split_file: "dataset_split.json"
+  max_retries: 3
+
+# Instrument distractor refinement (LLM judge on the final dataset)
+# API key: FORMATTER_API_KEY
+refine_instrument_options:
+  base_url: "https://api.gapgpt.app/v1"
+  model: "deepseek-v4-flash"
+  api_key_env: "FORMATTER_API_KEY"
+  max_retries: 3
+
+# Missing per-clip SFT/GRPO regeneration (LLM QA on the final dataset)
+# API key: FORMATTER_API_KEY
+generate_missing_grpo_sft:
+  base_url: "https://api.gapgpt.app/v1"
+  model: "gemini-3-flash-preview"
+  api_key_env: "FORMATTER_API_KEY"
+  max_retries: 3
+
+# Phase-dataset grounded SFT generation.
+# The teacher and critic use OpenAI-compatible chat completions. Videos are
+# sent as base64 data URLs in a video_url content part.
+# API keys live in .env.
+phase_sft:
+  source_dir: "./phase_dataset"
+  manifest_file: "./phase_dataset/manifest.csv"
+  output_dir: "./phase_vlm_dataset"
+  log_file: "phase_sft_log.csv"
+  materialization: "hardlink" # hardlink, copy, or symlink
+  hardlink_fallback_copy: true
+  video_part_type: "video_url"
+  max_attempts: 2
+  max_retries: 3
+  retry_delay_seconds: 10
+  request_delay_seconds: 10
+  max_video_bytes: 0 # 0 means no limit
+  fallback_max_frames: 64
+  frame_quality: 90
+  teacher:
+    base_url: "http://localhost:8000/v1"
+    model: "qwen3.7-plus"
+    api_key: "none"
+    api_key_env: "PHASE_SFT_TEACHER_API_KEY"
+  critic:
+    base_url: "http://localhost:8000/v1"
+    model: "qwen3.8-max"
+    api_key: "none"
+    api_key_env: "PHASE_SFT_CRITIC_API_KEY"
+
+# Deterministic phase GRPO generation from critic-approved phase SFT clips.
+# This stage makes no LLM/VLM/API calls.
+phase_grpo:
+  input_dir: "./phase_vlm_dataset"
+  log_file: "phase_grpo_log.csv"

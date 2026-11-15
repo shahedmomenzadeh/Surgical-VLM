@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv-*/
+.venv/
+venv/
+env/
+
+# Jupyter Notebooks
+*.ipynb
+*.ipynb_checkpoints/
+
+# Results and outputs
+# results/
+results_old/
+results/archive/
+timestamped_cache/
+
+# Dataset files
+dataset/
+
+# HuggingFace model cache
+hf_cache/
+
+# Environment variables
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+#test codes
+test_endpoint.py
+run_temp.sh
+test_lingshu_kaggle.sh
+swap_splits.py
+mage-vl-test.
+
+Archived Results/
+
+evaluation_dataset/*
+hf_upload
+
+build_evaluation_dataset.py
+make_hf_viewer_package.py
+upload_to_hf.py

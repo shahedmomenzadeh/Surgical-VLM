@@ -1,0 +1,114 @@
+# ============================================================
+# Surgical-VLM Monorepo .gitignore
+# ============================================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+# --- Virtual Environments ---
+.venv/
+.venv*/
+.hf_venv/
+venv/
+env/
+ENV/
+
+# --- Environment & Secrets ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+cookie.txt
+cookies.txt
+
+# --- IDE & OS ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Large Datasets & Video Media ---
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.zip
+*.tar
+*.gz
+*.parquet
+
+# Stage 1 Dataset outputs (reproducible from pipeline)
+01_dataset_curation/videos/
+01_dataset_curation/videos_down/
+01_dataset_curation/audio/
+01_dataset_curation/transcripts/
+01_dataset_curation/refined_transcripts/
+01_dataset_curation/vlm_dataset/
+01_dataset_curation/adverse_events/
+01_dataset_curation/clip_dataset/
+01_dataset_curation/dataset/
+01_dataset_curation/training_datasets/
+01_dataset_curation/phase_dataset/
+01_dataset_curation/phase_vlm_dataset/
+01_dataset_curation/hf_zips/
+01_dataset_curation/phase_stats/
+
+# Stage 2 Training checkpoints and video archives (distributed via HF Hub)
+02_training_pipeline/output/
+02_training_pipeline/dataset_sft/Train/
+02_training_pipeline/dataset_sft/Validation/
+02_training_pipeline/dataset_sft/Test/
+02_training_pipeline/dataset_sft/dataset_zips/
+02_training_pipeline/dataset_grpo/Train/
+02_training_pipeline/dataset_grpo/Validation/
+02_training_pipeline/dataset_grpo/Test/
+02_training_pipeline/dataset_grpo/dataset_zips/
+02_training_pipeline/data/*.json
+!02_training_pipeline/data/lite_e2e/*.json
+
+# Stage 3 Evaluation video files (distributed via HF Hub)
+03_evaluation_framework/evaluation_dataset/
+03_evaluation_framework/timestamped_cache/
+03_evaluation_framework/Archived Results/
+03_evaluation_framework/hf_upload/
+
+# Stage 4 Video to Report intermediate data and private assets
+04_video_to_report/videos/
+04_video_to_report/yolo-model/*.pt
+04_video_to_report/output-segmented/
+04_video_to_report/output-instruments/
+04_video_to_report/output-teacher/
+04_video_to_report/output-teacher-backup-v1/
+04_video_to_report/output-candidates/
+04_video_to_report/output-readable/
+04_video_to_report/archives/
+04_video_to_report/hf_dataset/
+04_video_to_report/output-evaluation/*
+!04_video_to_report/output-evaluation/v21full/
+
+# --- Hugging Face / Torch Caches ---
+hf_cache/
+hf_home/
+.cache/
+wandb/
+tensorboard_logs/
+
+# --- Backups & Rejects ---
+*.orig
+*.bak
+*.rej
+*.log
+*.tmp

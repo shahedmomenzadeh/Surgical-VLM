@@ -1,0 +1,72 @@
+[
+  {
+    "id": "full_dAzb-wU7mgU_full_video_sft_0",
+    "video": "Validation/dAzb-wU7mgU/full_video.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nProvide a detailed timestamped narration of this surgical procedure."
+      },
+      {
+        "from": "gpt",
+        "value": "[00:00 - 00:11] Corneal Marking for Steep Axis: A Mendez gauge is placed on the cornea, aligned with pre-operative reference marks. A cystotome is used to create small epithelial marks on the cornea at the 20-degree and 200-degree meridians to indicate the steep axis for toric IOL alignment.\n[00:23 - 00:29] viscoelastic injection: A viscoelastic cannula is inserted through a side-port incision (paracentesis) to inject viscoelastic material, filling and stabilizing the anterior chamber.\n[00:46 - 00:53] main corneal incision: A keratome blade is used to create a multi-planar clear corneal incision superiorly, aligned with the previously marked steep axis.\n[01:00 - 01:23] capsulorhexis: Capsulorhexis forceps are introduced into the anterior chamber. The surgeon grasps the anterior capsule to create a tear and guides it in a circular motion, forming a continuous curvilinear capsulorhexis (CCC). The free capsular flap is then removed from the eye.\n[01:27 - 01:42] hydrodissection: A hydrodissection cannula is inserted under the edge of the anterior capsule. Balanced salt solution is injected, creating a fluid wave that separates the lens nucleus and cortex from the capsular bag, allowing for free rotation of the nucleus.\n[01:42 - 01:47] viscoelastic injection: A dispersive viscoelastic is injected into the anterior chamber to coat and protect the corneal endothelium prior to phacoemulsification.\n[01:53 - 02:39] phacoemulsification: The phaco probe and a chopper are inserted. The phaco probe engages the nucleus with vacuum, and the chopper splits it into two halves. Each half is then maneuvered to the iris plane, further segmented, and emulsified. The nuclear fragments are aspirated until the nucleus is fully removed.\n[02:56 - 03:46] cortical irrigation and aspiration (i/a): An I/A handpiece is used to remove the remaining lens cortex and epinucleus from the capsular bag in a circumferential manner. The procedure concludes with polishing the undersurface of the anterior capsule rim.\n[03:47 - 04:02] capsular bag inflation with viscoelastic: Cohesive viscoelastic is injected into the capsular bag, inflating it to create space for the intraocular lens implant.\n[04:02 - 04:26] intraocular lens (iol) insertion: An IOL injector is inserted through the main incision, and a single-piece acrylic toric IOL is delivered into the capsular bag. A manipulator is used to ensure the trailing haptic is also placed within the bag.\n[04:28 - 04:50] viscoelastic removal (i/a): The I/A probe is re-inserted to aspirate the cohesive viscoelastic from the anterior chamber, both in front of and behind the IOL optic.\n[04:50 - 05:13] iol positioning: While the I/A probe maintains chamber inflation, a chopper is used to engage the IOL at the haptic-optic junction and rotate it clockwise. The alignment marks (dots) on the IOL are precisely lined up with the corneal marks representing the steep axis.\n[05:14 - 05:33] iol positioning and viscoelastic removal: A BSS cannula is used to hydrate the corneal stroma of the main incision to promote sealing. The cannula is then inserted through the side port to irrigate the angle and flush out any residual viscoelastic.\n[05:33 - 05:39] iol positioning: Using a BSS cannula through the side port, the surgeon makes a final, minor adjustment to the IOL's rotational position, ensuring it is perfectly aligned with the corneal marks."
+      }
+    ]
+  },
+  {
+    "id": "E4VLx3fVyEg_clip_16_sft_1",
+    "video": "Validation/E4VLx3fVyEg/clip_16.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWhat surgical step is being performed as the surgeon injects fluid into the incision site at the end of the procedure?\nA) Phacoemulsification\nB) Wound hydration\nC) Capsulorhexis\nD) IOL implantation\n\nProvide your reasoning first, then state your answer."
+      },
+      {
+        "from": "gpt",
+        "value": "The video shows the surgeon placing a cannula into the corneal incision and injecting fluid to cause the tissue to swell, which is the process of hydrating the wound to ensure it is self-sealing. Therefore the answer is B) Wound hydration."
+      }
+    ]
+  },
+  {
+    "id": "dAzb-wU7mgU_clip_02_sft_3",
+    "video": "Validation/dAzb-wU7mgU/clip_02.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWhich instrument is being used to deliver the viscoelastic material?\nA) Phaco tip\nB) Capsulorhexis forceps\nC) Viscoelastic cannula\nD) Irrigation/aspiration handpiece\n\nProvide your reasoning first, then state your answer."
+      },
+      {
+        "from": "gpt",
+        "value": "The surgeon holds a slender, tapered cannula that is inserted through the paracentesis and connected to a syringe of viscoelastic; this is the classic viscoelastic cannula used for chamber filling. Therefore the answer is C) Viscoelastic cannula."
+      }
+    ]
+  },
+  {
+    "id": "PH_0118_1741_S1_clip_06_sft_0",
+    "video": "Validation/PH_0118_1741_S1/clip_06.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nDescribe the visually observable surgical activity in this cataract surgery video clip. Focus on visible instruments, anatomy, actions, and observable changes. Do not infer details that cannot be seen."
+      },
+      {
+        "from": "gpt",
+        "value": "A close-up microscopic view of an eye held open by metal lid speculums shows a dark central pupil surrounded by a greyish-blue cornea and injected, reddened sclera. A fine surgical cannula enters the anterior chamber through a corneal incision to inject clear fluid, causing visible fluctuation in chamber depth and the appearance of multiple small air bubbles within the pupil. Following the injection, the cannula is withdrawn, and a white cotton-tipped applicator is briefly brought into the frame to wipe the ocular surface near the incision site."
+      }
+    ]
+  },
+  {
+    "id": "PH_0137_2347_S1_clip_07_sft_0",
+    "video": "Validation/PH_0137_2347_S1/clip_07.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nDescribe the visually observable surgical activity in this cataract surgery video clip. Focus on visible instruments, anatomy, actions, and observable changes. Do not infer details that cannot be seen."
+      },
+      {
+        "from": "gpt",
+        "value": "A close-up microscopic view of an eye held open by metal lid speculums. A thin irrigating cannula is inserted through a corneal incision at the inferior aspect of the anterior chamber. Fluid is being actively injected, evidenced by the formation and expansion of multiple distinct air/fluid bubbles within the anterior chamber and the visible fluctuation of the fluid meniscus. The iris and pupil are visible beneath the fluid layer, and the cornea remains clear."
+      }
+    ]
+  }
+]

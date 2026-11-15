@@ -1,0 +1,70 @@
+# GRPO Configuration
+# Default hyperparameters for QLoRA + LoRA GRPO training
+
+# Model (use the SFT merged model as base)
+model_id: "output/sft_merged"
+data_path: "data/grpo_train_dataset_grpo.json"
+eval_path: "data/grpo_val_dataset_grpo.json"
+image_folder: "dataset_grpo"
+bits: 8                          # 8-bit QLoRA
+lora_enable: true
+vision_lora: true
+lora_rank: 16
+lora_alpha: 32
+lora_dropout: 0.0
+num_lora_modules: -1
+lora_namespan_exclude: "['lm_head', 'embed_tokens', 'merger', 'pos_embed']"
+
+# Freezing — embed/lm_head/pos_embed/base frozen, merger full-trainable
+freeze_vision_tower: true
+freeze_llm: true
+freeze_merger: false
+
+# Precision
+bf16: true
+fp16: false
+tf32: true
+
+# Attention
+disable_flash_attn2: false
+
+# GRPO specific
+num_generations: 4               # Group size for GRPO
+max_completion_length: 512
+beta: 0.04                       # KL coefficient
+temperature: 0.9
+top_p: 1.0
+use_liger_kernel: false             # custom manual token-mean loss, not Liger
+# loss_type legacy no-op (custom per-token PPO k3 KL)
+
+# Learning
+learning_rate: 1e-4
+vision_lr: 2e-6
+merger_lr: 1e-5
+weight_decay: 0.0
+warmup_steps: 0
+lr_scheduler_type: "constant"
+num_train_epochs: 1
+
+# Batch
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 4
+dataloader_num_workers: 4
+
+# Video
+video_min_pixels: 131072
+video_max_pixels: 262144
+nframes: 60
+
+# Logging & saving
+logging_steps: 1
+eval_strategy: "steps"
+eval_steps: 500
+per_device_eval_batch_size: 1
+save_strategy: "epoch"
+save_total_limit: 3
+report_to: "tensorboard"
+
+# Misc
+gradient_checkpointing: true
+lazy_preprocess: true
