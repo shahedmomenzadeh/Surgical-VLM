@@ -86,15 +86,18 @@ See `evaluation_dataset/README.md` for the full dataset card (schemas, metadata 
 
 ### Quick Start
 
-```bash
-# Set your HuggingFace token for gated models / datasets
-export HF_TOKEN="your_token_here"
+Requires Python ≥ 3.10 and [uv](https://docs.astral.sh/uv/):
 
-# Set provider API key for LLM judge (e.g., OpenRouter)
-export PROVIDER_API_KEY="your_api_key_here"
+```bash
+# 1. Setup environment
+uv sync                # or: bash setup.sh
+
+# 2. Configure environment credentials
+cp .env.example .env   # Set HF_TOKEN and PROVIDER_API_KEY
+source .env 2>/dev/null || true
 
 # Option A: Run evaluation using local flat dataset
-python main.py \
+uv run python main.py \
     --mode all \
     --model-family qwen3vl \
     --model-id Qwen/Qwen3-VL-2B-Instruct \
@@ -104,7 +107,7 @@ python main.py \
     --max-frames 32
 
 # Option B: Run directly from Hugging Face Hub (auto-downloads & flattens)
-python main.py \
+uv run python main.py \
     --mode inference \
     --model-family qwen3vl \
     --model-id Qwen/Qwen3-VL-2B-Instruct \

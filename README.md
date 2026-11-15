@@ -114,7 +114,7 @@ Surgical-VLM/
 
 ## 🚀 Execution Instructions by Stage
 
-Each stage is completely self-contained. Below are quickstart instructions for each section. **Please prompt yourself to read each stage's dedicated README for exhaustive technical details, parameters, and troubleshooting.**
+Each stage is completely self-contained and standardized on **[`uv`](https://docs.astral.sh/uv/)** for fast, reproducible environment setup. Below are quickstart instructions for each section. **Please prompt yourself to read each stage's dedicated README for exhaustive technical details, parameters, and troubleshooting.**
 
 ### Stage 1: Dataset Curation (`01_dataset_curation`)
 
@@ -122,16 +122,16 @@ Build training datasets from raw video links:
 
 ```bash
 cd 01_dataset_curation
-pip install -r requirements.txt
+uv sync                       # or: bash setup.sh
 cp .env.example .env          # Set REFINER_API_KEY, GEMINI_API_KEY, etc.
 
 # Run complete 15-step dataset curation pipeline:
-python cli.py
+uv run python cli.py
 
 # Or run individual steps:
-python cli.py --step download
-python cli.py --step transcribe
-python cli.py --step vlm
+uv run python cli.py --step download
+uv run python cli.py --step transcribe
+uv run python cli.py --step vlm
 ```
 
 > [!TIP]
@@ -145,7 +145,7 @@ Train the Qwen3-VL-2B model through the 4-stage progressive curriculum:
 
 ```bash
 cd 02_training_pipeline
-pip install -r requirements.txt
+bash setup.sh                 # or: uv sync
 cp .env.example .env          # Set HF_TOKEN if needed
 
 # 1. Stage 1 SFT: Full perception & VQA (5,597 video clips)
@@ -176,16 +176,16 @@ Benchmark VLMs across 989 clip-level and 15 full-video surgical tasks:
 
 ```bash
 cd 03_evaluation_framework
-pip install -r requirements.txt
+uv sync                       # or: bash setup.sh
 cp .env.example .env          # Set HF_TOKEN and PROVIDER_API_KEY
 
 # 1. Download and unpack the evaluation benchmark from Hugging Face:
-python flatten_dataset.py \
+uv run python flatten_dataset.py \
     --hf-repo shahedm2001/cataract_surgery_vlm_eval \
     --output-dir ./evaluation_dataset
 
 # 2. Run inference with Qwen3-VL-2B:
-python main.py \
+uv run python main.py \
     --mode inference \
     --model-family qwen3vl \
     --model-id shahedm2001/qwen3-vl-2b-cataract-grpo \
@@ -193,7 +193,7 @@ python main.py \
     --output-dir ./results
 
 # 3. Grade model outputs with the LLM Judge:
-python main.py \
+uv run python main.py \
     --mode judge \
     --model-family qwen3vl \
     --model-id shahedm2001/qwen3-vl-2b-cataract-grpo \
@@ -211,7 +211,7 @@ Generate structured clinical operative reports from full surgery recordings:
 
 ```bash
 cd 04_video_to_report
-uv sync
+uv sync                       # or: bash setup.sh
 cp .env.example .env          # Configure teacher and judge endpoints
 
 # Run full report generation pipeline:
@@ -240,7 +240,7 @@ uv run python src/vlm_report_framework/evaluation/viewer.py --run-id v21full
 - **CUDA**: CUDA ≥ 12.1 (CUDA 13.0 recommended for PyTorch 2.5+).
 - **RAM**: ≥ 32 GB system memory recommended.
 - **Disk**: ≥ 60 GB SSD storage if downloading full video archives for training or evaluation.
-- **Package Managers**: `pip`, `conda`, and [`uv`](https://docs.astral.sh/uv/) (for fast dependency management).
+- **Package Manager**: [`uv`](https://docs.astral.sh/uv/) (used across all 4 stages for fast, unified, and reproducible virtual environment setups).
 
 ---
 

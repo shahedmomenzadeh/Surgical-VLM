@@ -62,9 +62,16 @@ The pipeline processes raw video recordings through an orchestrated sequence of 
 
 ### 1. Installation
 
+Requires Python ≥ 3.10 and [uv](https://docs.astral.sh/uv/):
+
 ```bash
 cd 01_dataset_curation
-pip install -r requirements.txt
+
+# Option A: One-step environment setup
+bash setup.sh
+
+# Option B: Fast sync with uv
+uv sync
 ```
 
 ### 2. Configure Environment
@@ -86,21 +93,21 @@ Key environment variables:
 Run the complete pipeline end-to-end:
 
 ```bash
-python cli.py
+uv run python cli.py
 ```
 
 Run a specific pipeline step:
 
 ```bash
-python cli.py --step download
-python cli.py --step transcribe
-python cli.py --step format
+uv run python cli.py --step download
+uv run python cli.py --step transcribe
+uv run python cli.py --step format
 ```
 
 Override default configuration:
 
 ```bash
-python cli.py --config config.yaml --step vlm
+uv run python cli.py --config config.yaml --step vlm
 ```
 
 ---
@@ -111,13 +118,13 @@ Phase-recognition clips feature a dedicated teacher/critic verification gate to 
 
 ```bash
 # 1. Generate teacher-critic verified SFT phase samples
-python -m tools.phase_sft_dataset --config config.yaml
+uv run python -m tools.phase_sft_dataset --config config.yaml
 
 # 2. Generate deterministic GRPO phase records (zero additional model calls)
-python -m tools.phase_grpo_dataset --config config.yaml
+uv run python -m tools.phase_grpo_dataset --config config.yaml
 
 # 3. Merge verified phase samples into the final training dataset
-python -m tools.merge_phase_dataset --config config.yaml
+uv run python -m tools.merge_phase_dataset --config config.yaml
 ```
 
 ---

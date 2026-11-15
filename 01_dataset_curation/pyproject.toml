@@ -1,0 +1,22 @@
+[project]
+name = "surgical-dataset-curation"
+version = "0.1.0"
+description = "Surgical VLM Dataset Curation Pipeline for Cataract Surgery"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "yt-dlp>=2024.0.0",
+    "pandas>=2.0.0",
+    "openai-whisper",
+    "tqdm>=4.66.0",
+    "python-dotenv>=1.0.0",
+    "pyyaml>=6.0.0",
+    "openai>=1.30.0",
+    "pydantic>=2.0.0",
+    "google-genai>=0.1.0",
+    "torch>=2.2.0",
+    "torchvision>=0.17.0",
+]
+
+[tool.uv.sources]
+openai-whisper = { git = "https://github.com/openai/whisper.git" }
