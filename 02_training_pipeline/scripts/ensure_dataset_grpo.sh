@@ -64,11 +64,20 @@ count=$(find "$ZIP_DIR" -maxdepth 1 -name "*.zip" | wc -l)
 log "downloaded $count zip chunk(s)."
 
 # ── 4. Unzip into the dataset root (restores Train/Validation/Test) ────────
-UNZIP_PY="$REPO_ROOT/dataset_grpo/unzip_dataset.py"
-[ -f "$UNZIP_PY" ] || UNZIP_PY="$REPO_ROOT/dataset_sft/unzip_dataset.py"
-[ -f "$UNZIP_PY" ] || err "unzip_dataset.py not found in dataset_grpo or dataset_sft — fresh clone incomplete?"
 log "extracting -> $ROOT ..."
-"$PY" "$UNZIP_PY" --zip-dir "$ZIP_DIR" --out "$ROOT"
+"$PY" -c "
+import glob, zipfile, sys, os
+zip_dir = sys.argv[1]
+target_dir = sys.argv[2]
+os.makedirs(target_dir, exist_ok=True)
+zips = sorted(glob.glob(os.path.join(zip_dir, '*.zip')))
+if not zips:
+    sys.exit(f'No zips found in {zip_dir}')
+for zf in zips:
+    print(f'Extracting {os.path.basename(zf)}...')
+    with zipfile.ZipFile(zf, 'r') as z:
+        z.extractall(target_dir)
+" "$ZIP_DIR" "$ROOT"
 
 # ── 5. Verify + optional zip cleanup ────────────────────────────────────────
 nonempty "$ROOT/Train" && nonempty "$ROOT/Validation" \
