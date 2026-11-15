@@ -26,7 +26,6 @@ Currently supported model families:
 - [HuluMed](https://huggingface.co/ZJU-AI4H/Hulu-Med-4B) (ZJU-AI4H)
 - [Qwen3-VL](https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct) (Alibaba)
 - [Lingshu-7B](https://huggingface.co/lingshu-medical-mllm/Lingshu-7B) (Qwen2.5-VL based medical MLLM)
-- [Mage-VL](https://huggingface.co/microsoft/Mage-VL) (Microsoft, codec-native video MLLM)
 
 ---
 
@@ -73,7 +72,6 @@ See `evaluation_dataset/README.md` for the full dataset card (schemas, metadata 
 ├── hulumed_inference.py    # HuluMed model inference pipeline
 ├── qwen3VL_inference.py    # Qwen3-VL model inference pipeline
 ├── lingshu_inference.py    # Lingshu-7B / Qwen2.5-VL inference pipeline
-├── mage_vl_inference.py    # Mage-VL inference pipeline (frames & codec backends)
 ├── run.sh                  # Environment setup and execution script
 ├── eval_all.sh             # Automated offline judge runner over all response files
 ├── run_fairness.sh         # Automated judge fairness & consistency experiment runner

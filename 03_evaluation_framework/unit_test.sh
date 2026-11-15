@@ -29,8 +29,6 @@ get_python() {
         echo "$SCRIPT_DIR/.hf_venv/bin/python"
     elif [ -f "$SCRIPT_DIR/.venv-qwen3vl/bin/python" ]; then
         echo "$SCRIPT_DIR/.venv-qwen3vl/bin/python"
-    elif [ -f "$SCRIPT_DIR/.venv-magevl/bin/python" ]; then
-        echo "$SCRIPT_DIR/.venv-magevl/bin/python"
     elif [ -f "$SCRIPT_DIR/.venv-hulumed/bin/python" ]; then
         echo "$SCRIPT_DIR/.venv-hulumed/bin/python"
     elif command -v python3 &>/dev/null; then

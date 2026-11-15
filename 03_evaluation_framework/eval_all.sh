@@ -223,9 +223,6 @@ for tag in "${!unique_tags[@]}"; do
     elif [[ "$tag_for_id" == lingshu_* ]]; then
         model_family="lingshu"
         model_id="lingshu-medical-mllm/Lingshu-7B"
-    elif [[ "$tag_for_id" == mage_vl_* ]]; then
-        model_family="mage_vl"
-        model_id="microsoft/Mage-VL"
     else
         warn "Unknown model family prefix for tag '$tag'. Skipping."
         continue

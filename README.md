@@ -49,7 +49,7 @@ flowchart TD
     end
 
     subgraph S3["Stage 3: Evaluation Framework (03_evaluation_framework)"]
-        EvalBenchmark["HF: shahedm2001/cataract_surgery_vlm_eval"] --> EvalSuite["Inference & Multi-Model Scoring<br/>(HuluMed, Qwen3-VL, Lingshu, Mage-VL)"]
+        EvalBenchmark["HF: shahedm2001/cataract_surgery_vlm_eval"] --> EvalSuite["Inference & Multi-Model Scoring<br/>(HuluMed, Qwen3-VL, Lingshu)"]
         SFT_Model -.-> EvalSuite
         GRPO_Model -.-> EvalSuite
         EvalSuite --> Metrics["Dual Scoring:<br/>Deterministic Rewards & LLM Judge"]
@@ -99,7 +99,7 @@ Surgical-VLM/
 │   ├── dataset_loader.py          # Multimodal dataset ingestion
 │   ├── llm_judge.py               # Deterministic metrics + LLM judge implementation
 │   ├── fairness_experiment.py     # Judge consistency and stability evaluation suite
-│   ├── *_inference.py             # Model inference runners (Qwen3-VL, HuluMed, Lingshu, Mage-VL)
+│   ├── *_inference.py             # Model inference runners (Qwen3-VL, HuluMed, Lingshu)
 │   └── results/                   # Complete score files, summaries, and comparison plots
 └── 04_video_to_report/            # Stage 4: Clinical operative reporting pipeline & interactive dashboard
     ├── README.md                  # Stage 4 operative reporting guide & pipeline execution

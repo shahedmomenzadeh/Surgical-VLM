@@ -165,7 +165,7 @@ get_venv_python() {
 }
 
 PYTHON_BIN=""
-for candidate in "$SCRIPT_DIR/.venv-qwen3vl" "$SCRIPT_DIR/.venv-hulumed" "$SCRIPT_DIR/.venv-magevl"; do
+for candidate in "$SCRIPT_DIR/.venv-qwen3vl" "$SCRIPT_DIR/.venv-hulumed"; do
     if [ -d "$candidate" ]; then
         found=$(get_venv_python "$candidate")
         if [ -n "$found" ] && [ -f "$found" ]; then
