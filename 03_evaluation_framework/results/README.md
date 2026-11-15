@@ -216,6 +216,7 @@ results/
 │   ├── fig2_subtask_radar_and_breakdown.{pdf,png}    # Multi-task radar chart & full 9x8 matrix
 │   ├── fig3_training_progression_ablation.{pdf,png}  # Base -> SFT1 -> SFT2 -> GRPO trajectory
 │   └── fig4_full_narration_dimensions.{pdf,png}      # 5D clinical breakdown on uncut videos
+├── generate_plots.py            # Automated generator script for publication figures
 └── archive/                     # Preserved past scoring runs
 ```
 

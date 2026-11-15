@@ -57,6 +57,48 @@ See `evaluation_dataset/README.md` for the full dataset card (schemas, metadata 
 
 ---
 
+## Benchmark Results & Model Performance Visualizations
+
+We benchmarked 9 distinct VLM configurations across 989 clip-level multi-modal tasks and 15 full-video surgical narration procedures. The evaluation contrasts our domain-adapted models against generalist foundations and leading medical specialist VLMs.
+
+### 📊 Overall Benchmark Performance
+
+![Overall Benchmark Comparison](results/plots/fig1_overall_benchmark_comparison.png)
+
+*Figure 1: Comprehensive benchmark comparison across models. **(a)** Overall clip-level accuracy ($n=989$), highlighting Qwen3-VL-2B-Cataract-GRPO achieving state-of-the-art (**0.5869**). **(b)** Categorical surgical perception (MCQ Macro, $n=486$) versus temporal phase grounding (Phase Macro, $n=210$). **(c)** Full-video procedural narration clinical scores on uncut surgeries ($n=15$).*
+
+---
+
+### 🎯 Clinical Competency Radar & Granular Subtask Breakdown
+
+![Clinical Competency Radar and Subtask Matrix](results/plots/fig2_subtask_radar_and_breakdown.png)
+
+*Figure 2: Fine-grained clinical subtask performance. **(a)** 8-axis competency radar profile contrasting our GRPO model, curriculum SFT Stage 2, base Qwen3-VL-2B-Instruct, and medical specialist baselines (Lingshu-7B, Hulu-Med-4B). **(b)** Granular performance matrix (heatmap) across all 9 models and 8 clinical subtasks.*
+
+---
+
+### Benchmark Summary Table
+
+| Model Architecture | Parameters | Paradigm / Focus | Overall Clip Acc ($n=989$) | MCQ Macro ($n=486$) | Phase Macro ($n=210$) | Visual Desc ($n=293$) | Narration (/5.0) ($n=15$) |
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Qwen3-VL-2B-Cataract-GRPO** | 2B | Domain RL (Ours) | **0.5869** | **0.8909** | **0.2825** | 0.3024 | 0.2667 |
+| **Qwen3-VL-2B-Cataract-SFT-Stage2** | 2B | Curriculum SFT (Ours) | 0.5421 | 0.8292 | 0.2010 | 0.3133 | 0.3333 |
+| **Qwen3-VL-2B-Cataract-SFT** | 2B | Foundation SFT (Ours) | 0.5376 | 0.8354 | 0.1925 | 0.2935 | 0.3333 |
+| **Hulu-Med-4B** | 4B | Medical Specialist | 0.4376 | 0.6502 | 0.1953 | 0.2594 | 0.2000 |
+| **Qwen3-VL-2B-Thinking** | 2B | Generalist Reasoning | 0.4338 | 0.6235 | 0.1754 | 0.3044 | 0.1333 |
+| **Lingshu-7B** | 7B | Medical Specialist | 0.4208 | 0.6090 | 0.2157 | 0.2601 | **0.8000** |
+| **Qwen3-VL-4B-Instruct** | 4B | Generalist Instruct | 0.4059 | 0.5926 | 0.0825 | **0.3276** | 0.1333 |
+| **Qwen3-VL-2B-Instruct** | 2B | Generalist Base | 0.4057 | 0.5905 | 0.1820 | 0.2608 | 0.0667 |
+| **Hulu-Med-7B** | 7B | Medical Specialist | 0.3978 | 0.5453 | 0.2171 | 0.2826 | 0.6000 |
+
+> [!TIP]
+> **Key Benchmark Insights:**
+> 1. **State-of-the-Art Clip Understanding:** `Qwen3-VL-2B-Cataract-GRPO` achieves **0.5869** overall normalized accuracy, outperforming the base model by **+18.12%**, Hulu-Med-4B by **+14.93%**, and Lingshu-7B by **+16.61%**.
+> 2. **Perception & Grounding Synergy:** GRPO substantially boosts categorical surgical perception (MCQ Macro **89.09%**) while advancing temporal grounding (Phase Macro **28.25%**), demonstrating that domain reinforcement learning successfully aligns visual representations with clinical dynamics.
+> 3. **High-Resolution Figures:** Both vector `.pdf` and 300 DPI `.png` figures are available in [`results/plots/`](results/plots) and can be regenerated anytime via `uv run --with matplotlib --with seaborn python results/generate_plots.py`.
+
+---
+
 ## Project Structure
 
 ```
@@ -75,7 +117,9 @@ See `evaluation_dataset/README.md` for the full dataset card (schemas, metadata 
 ├── run.sh                  # Environment setup and execution script
 ├── eval_all.sh             # Automated offline judge runner over all response files
 ├── run_fairness.sh         # Automated judge fairness & consistency experiment runner
-└── results/                # Generated responses, scores, and summaries
+└── results/                # Generated responses, scores, summaries, and academic figures
+    ├── plots/              # High-resolution benchmark comparison figures (PNG & PDF)
+    └── generate_plots.py   # Publication figure generator script
 ```
 
 ---
